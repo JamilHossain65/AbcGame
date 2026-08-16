@@ -1,0 +1,59 @@
+PODS:
+  - Appodeal (4.3.0):
+    - Protobuf (= 3.29.3)
+    - StackConsentManager (= 4.1.0)
+    - StackModules (= 3.5.2)
+  - AppodealGoogleAdMobAdapter (13.5.0.0):
+    - Appodeal (< 5.0.0, >= 4.0.0)
+    - Bidon (= 0.15.0)
+    - Google-Mobile-Ads-SDK (= 13.5.0)
+  - Bidon (0.15.0)
+  - Google-Mobile-Ads-SDK (13.5.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.1.0)
+  - Protobuf (3.29.3)
+  - StackConsentManager (4.1.0):
+    - GoogleUserMessagingPlatform (~> 3.1)
+  - StackModules (3.5.2):
+    - StackModules/Static (= 3.5.2)
+  - StackModules/Core-Static (3.5.2)
+  - StackModules/ProductPresentation-Static (3.5.2):
+    - StackModules/Core-Static
+  - StackModules/Rendering-Static (3.5.2):
+    - StackModules/Core-Static
+    - StackModules/ProductPresentation-Static
+  - StackModules/Static (3.5.2):
+    - StackModules/Core-Static
+    - StackModules/ProductPresentation-Static
+    - StackModules/Rendering-Static
+
+DEPENDENCIES:
+  - Appodeal (= 4.3.0)
+  - AppodealGoogleAdMobAdapter (~> 13.5.0.0)
+
+SPEC REPOS:
+  https://github.com/appodeal/CocoaPods.git:
+    - AppodealGoogleAdMobAdapter
+    - StackConsentManager
+  https://github.com/bidon-io/CocoaPods-Specs.git:
+    - Bidon
+  trunk:
+    - Appodeal
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - Protobuf
+    - StackModules
+
+SPEC CHECKSUMS:
+  Appodeal: 4fe21512a80d906dbd3aceb13888c8a04393b718
+  AppodealGoogleAdMobAdapter: 7730baee55a70851e614abe80febfecd950d8285
+  Bidon: 78b9e311d1961a5bedea4bbe58fc3c0d55da7159
+  Google-Mobile-Ads-SDK: 2171620c6497804b57dc88b95644cc82e7dfb5b0
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  Protobuf: e2de96d939c642ce8da186343ff8929b35223212
+  StackConsentManager: 6b884ea33ff3858eafd1b949851b4f56c84ca1ad
+  StackModules: af0e76eb5e6ef5d5a9f5963efc899359157a0a98
+
+PODFILE CHECKSUM: 35f952b16a0a2410eb606b5b5f8a459e304a3ae8
+
+COCOAPODS: 1.16.2
