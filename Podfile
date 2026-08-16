@@ -21,7 +21,7 @@ install! 'cocoapods', :deterministic_uuids => false, :warn_for_multiple_pod_sour
 
 use_frameworks!
 def appodeal
-   #pod 'Appodeal', '4.3.0'
+   pod 'Appodeal', '4.3.0'
    # AppLovin MAX
 #   pod 'AppLovinMediationAmazonAdMarketplaceAdapter', '5.5.0.0'
 #   pod 'AppLovinMediationBidMachineAdapter', '3.7.1.0.0'
