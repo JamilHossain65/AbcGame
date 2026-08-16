@@ -6,717 +6,82 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		087AC1963339F13CD6B6C620239AD54A /* Appodeal */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46EB2E000008B0 /* Build configuration list for PBXAggregateTarget "Appodeal" */;
-			buildPhases = (
-				46EB2E00001D00 /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-				46EB2E00001FA0 /* PBXTargetDependency */,
-				46EB2E00001FC0 /* PBXTargetDependency */,
-				46EB2E00001FE0 /* PBXTargetDependency */,
-				46EB2E00002000 /* PBXTargetDependency */,
-			);
-			name = Appodeal;
-		};
-		0AFD652CA2DA4EFFDE28DEBAE30FE34C /* StackConsentManager */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46EB2E00001560 /* Build configuration list for PBXAggregateTarget "StackConsentManager" */;
-			buildPhases = (
-				46EB2E00001D50 /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-				46EB2E00002150 /* PBXTargetDependency */,
-				46EB2E00002130 /* PBXTargetDependency */,
-			);
-			name = StackConsentManager;
-		};
-		458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46EB2E00000D90 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */;
-			buildPhases = (
-				46EB2E00001D40 /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-				46EB2E000020E0 /* PBXTargetDependency */,
-			);
-			name = GoogleUserMessagingPlatform;
-		};
-		668FF09CD3946D32D9B36D5B600F4E8D /* AppodealGoogleAdMobAdapter */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46EB2E000009D0 /* Build configuration list for PBXAggregateTarget "AppodealGoogleAdMobAdapter" */;
-			buildPhases = (
-				46EB2E00001D10 /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-				46EB2E00002060 /* PBXTargetDependency */,
-				46EB2E00002040 /* PBXTargetDependency */,
-				46EB2E00002020 /* PBXTargetDependency */,
-			);
-			name = AppodealGoogleAdMobAdapter;
-		};
-		D905649A37FE7E236C51D78FFBBA798F /* StackModules */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46EB2E00001680 /* Build configuration list for PBXAggregateTarget "StackModules" */;
-			buildPhases = (
-				46EB2E00001D60 /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-				46EB2E00002170 /* PBXTargetDependency */,
-				46EB2E00002190 /* PBXTargetDependency */,
-				46EB2E000021B0 /* PBXTargetDependency */,
-			);
-			name = StackModules;
-		};
-		DD307CDA45EFF2CA319B027D91EDFBBF /* Bidon */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46EB2E00000A50 /* Build configuration list for PBXAggregateTarget "Bidon" */;
-			buildPhases = (
-				46EB2E00001D20 /* [CP] Copy XCFrameworks */,
-			);
-			dependencies = (
-				46EB2E00002080 /* PBXTargetDependency */,
-			);
-			name = Bidon;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		46EB2E00000960 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000790 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00000B00 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007B0 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00000C10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C00 /* Foundation.framework */; };
-		46EB2E00000CA0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007D0 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00000CD0 /* GoogleMobileAdsPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* GoogleMobileAdsPlaceholder.swift */; };
-		46EB2E00000D30 /* Google-Mobile-Ads-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D20 /* Google-Mobile-Ads-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000D70 /* Google-Mobile-Ads-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D60 /* Google-Mobile-Ads-SDK-dummy.m */; };
-		46EB2E00000E40 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007F0 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00000F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C00 /* Foundation.framework */; };
-		46EB2E00000FC0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000810 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00000FF0 /* GPBAny.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* GPBAny.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001000 /* GPBApi.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* GPBApi.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001010 /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001020 /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001030 /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001040 /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001050 /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001060 /* GPBDuration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* GPBDuration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001070 /* GPBEmpty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002C0 /* GPBEmpty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001080 /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001090 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000300 /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E000010A0 /* GPBFieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* GPBFieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E000010B0 /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000340 /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E000010C0 /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000390 /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E000010D0 /* GPBSourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003D0 /* GPBSourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E000010E0 /* GPBStruct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003F0 /* GPBStruct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E000010F0 /* GPBTimestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* GPBTimestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001100 /* GPBType.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000430 /* GPBType.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001110 /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000460 /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001120 /* GPBUnknownFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000490 /* GPBUnknownFields.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001130 /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004B0 /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001140 /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000500 /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001150 /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000530 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001160 /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000550 /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001170 /* GPBWrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000570 /* GPBWrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46EB2E00001180 /* GPBUnknownField+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000440 /* GPBUnknownField+Additions.swift */; };
-		46EB2E00001190 /* GPBUnknownFields+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000470 /* GPBUnknownFields+Additions.swift */; };
-		46EB2E000011A0 /* GPBAny.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* GPBAny.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000011B0 /* GPBApi.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* GPBApi.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000011C0 /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000011D0 /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000011E0 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000011F0 /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001200 /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001210 /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000200 /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001220 /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001230 /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000230 /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001240 /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001250 /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001260 /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001270 /* GPBDuration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* GPBDuration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001280 /* GPBEmpty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* GPBEmpty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001290 /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000012A0 /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002F0 /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000012B0 /* GPBFieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* GPBFieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000012C0 /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000012D0 /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000350 /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000012E0 /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000360 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000012F0 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000370 /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001300 /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001310 /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003A0 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001320 /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003B0 /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001330 /* GPBSourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003C0 /* GPBSourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001340 /* GPBStruct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003E0 /* GPBStruct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001350 /* GPBTimestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000400 /* GPBTimestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001360 /* GPBType.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000420 /* GPBType.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001370 /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000450 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001380 /* GPBUnknownFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000480 /* GPBUnknownFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001390 /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004A0 /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000013A0 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004C0 /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000013B0 /* GPBUnknownFields_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004D0 /* GPBUnknownFields_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000013C0 /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004E0 /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000013D0 /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004F0 /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000013E0 /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000510 /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000013F0 /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000520 /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001400 /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000540 /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001410 /* GPBWrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000560 /* GPBWrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001420 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000580 /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001430 /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000590 /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001440 /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005A0 /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001450 /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005B0 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001460 /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005C0 /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001470 /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005D0 /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001480 /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005E0 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001490 /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005F0 /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000014A0 /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000600 /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000014B0 /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000610 /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001500 /* Protobuf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000014F0 /* Protobuf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001540 /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001530 /* Protobuf-dummy.m */; };
-		46EB2E00001610 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000830 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00001730 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000850 /* PrivacyInfo.xcprivacy */; };
-		46EB2E000017E0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000870 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00001880 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000890 /* PrivacyInfo.xcprivacy */; };
-		46EB2E00001960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C00 /* Foundation.framework */; };
-		46EB2E000019D0 /* Pods-AbcGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000019C0 /* Pods-AbcGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001A30 /* Pods-AbcGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001A20 /* Pods-AbcGame-dummy.m */; };
-		46EB2E00001AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C00 /* Foundation.framework */; };
-		46EB2E00001B40 /* Pods-AbcGame-AbcGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001B30 /* Pods-AbcGame-AbcGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001BA0 /* Pods-AbcGame-AbcGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001B90 /* Pods-AbcGame-AbcGameUITests-dummy.m */; };
-		46EB2E00001C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C00 /* Foundation.framework */; };
-		46EB2E00001CB0 /* Pods-AbcGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001CA0 /* Pods-AbcGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00001CF0 /* Pods-AbcGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001CE0 /* Pods-AbcGameTests-dummy.m */; };
-		46EB2E00002110 /* Protobuf-Protobuf_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */; };
+		46EB2E00000170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* Foundation.framework */; };
+		46EB2E000001E0 /* Pods-AbcGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* Pods-AbcGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000220 /* Pods-AbcGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Pods-AbcGame-dummy.m */; };
+		46EB2E000002C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* Foundation.framework */; };
+		46EB2E00000330 /* Pods-AbcGame-AbcGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* Pods-AbcGame-AbcGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000370 /* Pods-AbcGame-AbcGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000360 /* Pods-AbcGame-AbcGameUITests-dummy.m */; };
+		46EB2E00000410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* Foundation.framework */; };
+		46EB2E00000480 /* Pods-AbcGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000470 /* Pods-AbcGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000004C0 /* Pods-AbcGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004B0 /* Pods-AbcGameTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E00001D70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 087AC1963339F13CD6B6C620239AD54A;
-			remoteInfo = Appodeal;
-		};
-		46EB2E00001D90 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 668FF09CD3946D32D9B36D5B600F4E8D;
-			remoteInfo = AppodealGoogleAdMobAdapter;
-		};
-		46EB2E00001DB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD307CDA45EFF2CA319B027D91EDFBBF;
-			remoteInfo = Bidon;
-		};
-		46EB2E00001DD0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
-			remoteInfo = "Google-Mobile-Ads-SDK";
-		};
-		46EB2E00001DF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
-			remoteInfo = GoogleUserMessagingPlatform;
-		};
-		46EB2E00001E10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 470FE31978DC918618A329D8B55C85FF;
-			remoteInfo = Protobuf;
-		};
-		46EB2E00001E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AFD652CA2DA4EFFDE28DEBAE30FE34C;
-			remoteInfo = StackConsentManager;
-		};
-		46EB2E00001E50 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D905649A37FE7E236C51D78FFBBA798F;
-			remoteInfo = StackModules;
-		};
-		46EB2E00001E70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 087AC1963339F13CD6B6C620239AD54A;
-			remoteInfo = Appodeal;
-		};
-		46EB2E00001E90 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 668FF09CD3946D32D9B36D5B600F4E8D;
-			remoteInfo = AppodealGoogleAdMobAdapter;
-		};
-		46EB2E00001EB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD307CDA45EFF2CA319B027D91EDFBBF;
-			remoteInfo = Bidon;
-		};
-		46EB2E00001ED0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
-			remoteInfo = "Google-Mobile-Ads-SDK";
-		};
-		46EB2E00001EF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
-			remoteInfo = GoogleUserMessagingPlatform;
-		};
-		46EB2E00001F10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 470FE31978DC918618A329D8B55C85FF;
-			remoteInfo = Protobuf;
-		};
-		46EB2E00001F30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AFD652CA2DA4EFFDE28DEBAE30FE34C;
-			remoteInfo = StackConsentManager;
-		};
-		46EB2E00001F50 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D905649A37FE7E236C51D78FFBBA798F;
-			remoteInfo = StackModules;
-		};
-		46EB2E00001F70 /* PBXContainerItemProxy */ = {
+		46EB2E000004D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4BD42CF3262BB684623C2F354684EE8A;
 			remoteInfo = "Pods-AbcGame";
 		};
-		46EB2E00001F90 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C60A15D94751CC0C485F4424EF834D5;
-			remoteInfo = "Appodeal-AppodealPrivacyInfo";
-		};
-		46EB2E00001FB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 470FE31978DC918618A329D8B55C85FF;
-			remoteInfo = Protobuf;
-		};
-		46EB2E00001FD0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AFD652CA2DA4EFFDE28DEBAE30FE34C;
-			remoteInfo = StackConsentManager;
-		};
-		46EB2E00001FF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D905649A37FE7E236C51D78FFBBA798F;
-			remoteInfo = StackModules;
-		};
-		46EB2E00002010 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
-			remoteInfo = "Google-Mobile-Ads-SDK";
-		};
-		46EB2E00002030 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD307CDA45EFF2CA319B027D91EDFBBF;
-			remoteInfo = Bidon;
-		};
-		46EB2E00002050 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 087AC1963339F13CD6B6C620239AD54A;
-			remoteInfo = Appodeal;
-		};
-		46EB2E00002070 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAF21087A7343229930AF884A40DE555;
-			remoteInfo = "Bidon-BidonPrivacyInfo";
-		};
-		46EB2E00002090 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 36FD0958A0EC4A0FCF599E9B22719B03;
-			remoteInfo = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
-		};
-		46EB2E000020B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
-			remoteInfo = GoogleUserMessagingPlatform;
-		};
-		46EB2E000020D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63A7C675C13F87669AF56006D943998B;
-			remoteInfo = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
-		};
-		46EB2E000020F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 331902F14E62290AA86FB37CAAC6ABB0;
-			remoteInfo = "Protobuf-Protobuf_Privacy";
-		};
-		46EB2E00002120 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91D9CBCA9AA32FDF1B5673757F7635DE;
-			remoteInfo = "StackConsentManager-ConsentPrivacyInfo";
-		};
-		46EB2E00002140 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
-			remoteInfo = GoogleUserMessagingPlatform;
-		};
-		46EB2E00002160 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E40F8194A93D9DD5F0F1325C957E8BC1;
-			remoteInfo = "StackModules-StackModules";
-		};
-		46EB2E00002180 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D2D0EB1F6AED5A8E858AC7C243A9087;
-			remoteInfo = "StackModules-StackProductPresentation";
-		};
-		46EB2E000021A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9DF2FCF0536FE85957E0982A6BD4C77;
-			remoteInfo = "StackModules-StackRendering";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A7576CF77CC39A3AE925FD8C62A83EB /* Pods-AbcGameTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbcGameTests"; path = Pods_AbcGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F14CF59C83FFAF21D1D395C7E6D1435 /* StackModules-StackRendering */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackModules-StackRendering"; path = StackRendering.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources"; path = GoogleMobileAdsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4112269B36F33C98D09AF1B79A7E98E2 /* StackConsentManager-ConsentPrivacyInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackConsentManager-ConsentPrivacyInfo"; path = ConsentPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000130 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00000140 /* GoogleMobileAdsPlaceholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleMobileAdsPlaceholder.swift; path = Sources/GoogleMobileAdsPlaceholder.swift; sourceTree = "<group>"; };
-		46EB2E00000150 /* GPBAny.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBAny.pbobjc.h; path = objectivec/GPBAny.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000160 /* GPBAny.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBAny.pbobjc.m; path = objectivec/GPBAny.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000170 /* GPBApi.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBApi.pbobjc.h; path = objectivec/GPBApi.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000180 /* GPBApi.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBApi.pbobjc.m; path = objectivec/GPBApi.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000190 /* GPBArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = objectivec/GPBArray.h; sourceTree = "<group>"; };
-		46EB2E000001A0 /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
-		46EB2E000001B0 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = objectivec/GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E000001C0 /* GPBBootstrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = objectivec/GPBBootstrap.h; sourceTree = "<group>"; };
-		46EB2E000001D0 /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = objectivec/GPBCodedInputStream.h; sourceTree = "<group>"; };
-		46EB2E000001E0 /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = objectivec/GPBCodedInputStream.m; sourceTree = "<group>"; };
-		46EB2E000001F0 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E00000200 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
-		46EB2E00000210 /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedOutputStream.m; path = objectivec/GPBCodedOutputStream.m; sourceTree = "<group>"; };
-		46EB2E00000220 /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E00000230 /* GPBDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = objectivec/GPBDescriptor.h; sourceTree = "<group>"; };
-		46EB2E00000240 /* GPBDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = objectivec/GPBDescriptor.m; sourceTree = "<group>"; };
-		46EB2E00000250 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E00000260 /* GPBDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = objectivec/GPBDictionary.h; sourceTree = "<group>"; };
-		46EB2E00000270 /* GPBDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDictionary.m; path = objectivec/GPBDictionary.m; sourceTree = "<group>"; };
-		46EB2E00000280 /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = objectivec/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E00000290 /* GPBDuration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDuration.pbobjc.h; path = objectivec/GPBDuration.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000002A0 /* GPBDuration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDuration.pbobjc.m; path = objectivec/GPBDuration.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E000002B0 /* GPBEmpty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBEmpty.pbobjc.h; path = objectivec/GPBEmpty.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000002C0 /* GPBEmpty.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBEmpty.pbobjc.m; path = objectivec/GPBEmpty.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E000002D0 /* GPBExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = objectivec/GPBExtensionInternals.h; sourceTree = "<group>"; };
-		46EB2E000002E0 /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
-		46EB2E000002F0 /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = objectivec/GPBExtensionRegistry.h; sourceTree = "<group>"; };
-		46EB2E00000300 /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = objectivec/GPBExtensionRegistry.m; sourceTree = "<group>"; };
-		46EB2E00000310 /* GPBFieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBFieldMask.pbobjc.h; path = objectivec/GPBFieldMask.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000320 /* GPBFieldMask.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBFieldMask.pbobjc.m; path = objectivec/GPBFieldMask.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000330 /* GPBMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = objectivec/GPBMessage.h; sourceTree = "<group>"; };
-		46EB2E00000340 /* GPBMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = objectivec/GPBMessage.m; sourceTree = "<group>"; };
-		46EB2E00000350 /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = objectivec/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E00000360 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
-		46EB2E00000370 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
-		46EB2E00000380 /* GPBRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = objectivec/GPBRootObject.h; sourceTree = "<group>"; };
-		46EB2E00000390 /* GPBRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = objectivec/GPBRootObject.m; sourceTree = "<group>"; };
-		46EB2E000003A0 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = objectivec/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E000003B0 /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = objectivec/GPBRuntimeTypes.h; sourceTree = "<group>"; };
-		46EB2E000003C0 /* GPBSourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBSourceContext.pbobjc.h; path = objectivec/GPBSourceContext.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000003D0 /* GPBSourceContext.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBSourceContext.pbobjc.m; path = objectivec/GPBSourceContext.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E000003E0 /* GPBStruct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBStruct.pbobjc.h; path = objectivec/GPBStruct.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000003F0 /* GPBStruct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBStruct.pbobjc.m; path = objectivec/GPBStruct.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000400 /* GPBTimestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBTimestamp.pbobjc.h; path = objectivec/GPBTimestamp.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000410 /* GPBTimestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBTimestamp.pbobjc.m; path = objectivec/GPBTimestamp.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000420 /* GPBType.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBType.pbobjc.h; path = objectivec/GPBType.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000430 /* GPBType.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBType.pbobjc.m; path = objectivec/GPBType.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000440 /* GPBUnknownField+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GPBUnknownField+Additions.swift"; path = "objectivec/GPBUnknownField+Additions.swift"; sourceTree = "<group>"; };
-		46EB2E00000450 /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = objectivec/GPBUnknownField.h; sourceTree = "<group>"; };
-		46EB2E00000460 /* GPBUnknownField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownField.m; path = objectivec/GPBUnknownField.m; sourceTree = "<group>"; };
-		46EB2E00000470 /* GPBUnknownFields+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GPBUnknownFields+Additions.swift"; path = "objectivec/GPBUnknownFields+Additions.swift"; sourceTree = "<group>"; };
-		46EB2E00000480 /* GPBUnknownFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFields.h; path = objectivec/GPBUnknownFields.h; sourceTree = "<group>"; };
-		46EB2E00000490 /* GPBUnknownFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFields.m; path = objectivec/GPBUnknownFields.m; sourceTree = "<group>"; };
-		46EB2E000004A0 /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = objectivec/GPBUnknownFieldSet.h; sourceTree = "<group>"; };
-		46EB2E000004B0 /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = objectivec/GPBUnknownFieldSet.m; sourceTree = "<group>"; };
-		46EB2E000004C0 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E000004D0 /* GPBUnknownFields_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFields_PackagePrivate.h; path = objectivec/GPBUnknownFields_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E000004E0 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = objectivec/GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E000004F0 /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
-		46EB2E00000500 /* GPBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = objectivec/GPBUtilities.m; sourceTree = "<group>"; };
-		46EB2E00000510 /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = objectivec/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
-		46EB2E00000520 /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = objectivec/GPBWellKnownTypes.h; sourceTree = "<group>"; };
-		46EB2E00000530 /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = objectivec/GPBWellKnownTypes.m; sourceTree = "<group>"; };
-		46EB2E00000540 /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = objectivec/GPBWireFormat.h; sourceTree = "<group>"; };
-		46EB2E00000550 /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = objectivec/GPBWireFormat.m; sourceTree = "<group>"; };
-		46EB2E00000560 /* GPBWrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWrappers.pbobjc.h; path = objectivec/GPBWrappers.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000570 /* GPBWrappers.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWrappers.pbobjc.m; path = objectivec/GPBWrappers.pbobjc.m; sourceTree = "<group>"; };
-		46EB2E00000580 /* Any.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Any.pbobjc.h; path = objectivec/google/protobuf/Any.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000590 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005A0 /* Duration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Duration.pbobjc.h; path = objectivec/google/protobuf/Duration.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005B0 /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005C0 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldMask.pbobjc.h; path = objectivec/google/protobuf/FieldMask.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005D0 /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceContext.pbobjc.h; path = objectivec/google/protobuf/SourceContext.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005E0 /* Struct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.pbobjc.h; path = objectivec/google/protobuf/Struct.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005F0 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000600 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000610 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wrappers.pbobjc.h; path = objectivec/google/protobuf/Wrappers.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E00000630 /* Appodeal.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Appodeal.xcframework; path = "Appodeal-4.3.0/Appodeal.xcframework"; sourceTree = "<group>"; };
-		46EB2E00000640 /* AppodealMediationCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppodealMediationCore.xcframework; path = "Appodeal-4.3.0/AppodealMediationCore.xcframework"; sourceTree = "<group>"; };
-		46EB2E00000660 /* APDGoogleAdMobAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = APDGoogleAdMobAdapter.xcframework; path = "APDGoogleAdMobAdapter-13.5.0.0/APDGoogleAdMobAdapter.xcframework"; sourceTree = "<group>"; };
-		46EB2E00000680 /* Bidon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Bidon.xcframework; path = "Bidon-0.15.0/Bidon.xcframework"; sourceTree = "<group>"; };
-		46EB2E000006A0 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
-		46EB2E000006C0 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
-		46EB2E000006E0 /* StackConsentManager.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = StackConsentManager.xcframework; sourceTree = "<group>"; };
-		46EB2E00000710 /* StackModules.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = StackModules.xcframework; path = release/Static/StackModules.xcframework; sourceTree = "<group>"; };
-		46EB2E00000740 /* StackProductPresentation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = StackProductPresentation.xcframework; path = release/Static/StackProductPresentation.xcframework; sourceTree = "<group>"; };
-		46EB2E00000770 /* StackRendering.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = StackRendering.xcframework; path = release/Static/StackRendering.xcframework; sourceTree = "<group>"; };
-		46EB2E00000790 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Appodeal-4.3.0/Appodeal.xcframework/ios-arm64/Appodeal.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E000007B0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Bidon-0.15.0/Bidon.xcframework/ios-arm64/Bidon.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E000007D0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E000007F0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000810 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		46EB2E00000830 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "StackConsentManager.xcframework/ios-arm64/StackConsentManager.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000850 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "release/Static/StackModules.xcframework/ios-arm64/StackModules.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000870 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "release/Static/StackProductPresentation.xcframework/ios-arm64/StackProductPresentation.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000890 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "release/Static/StackRendering.xcframework/ios-arm64/StackRendering.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000980 /* ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000990 /* Appodeal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Appodeal-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E000009A0 /* Appodeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appodeal.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E000009B0 /* Appodeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appodeal.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000A10 /* AppodealGoogleAdMobAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppodealGoogleAdMobAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000A20 /* AppodealGoogleAdMobAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppodealGoogleAdMobAdapter.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000A30 /* AppodealGoogleAdMobAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppodealGoogleAdMobAdapter.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000B20 /* ResourceBundle-BidonPrivacyInfo-Bidon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BidonPrivacyInfo-Bidon-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000B30 /* Bidon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Bidon-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000B40 /* Bidon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bidon.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000B50 /* Bidon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bidon.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000C00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46EB2E00000CC0 /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000CE0 /* Google-Mobile-Ads-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Google-Mobile-Ads-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000CF0 /* Google-Mobile-Ads-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000D00 /* Google-Mobile-Ads-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000D10 /* Google-Mobile-Ads-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Google-Mobile-Ads-SDK.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000D20 /* Google-Mobile-Ads-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Mobile-Ads-SDK-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000D40 /* Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000D50 /* Google-Mobile-Ads-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Mobile-Ads-SDK-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000D60 /* Google-Mobile-Ads-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Google-Mobile-Ads-SDK-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000E60 /* ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000E70 /* GoogleUserMessagingPlatform-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleUserMessagingPlatform-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000E80 /* GoogleUserMessagingPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000E90 /* GoogleUserMessagingPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000FE0 /* ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000014C0 /* Protobuf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E000014D0 /* Protobuf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E000014E0 /* Protobuf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Protobuf.modulemap; sourceTree = "<group>"; };
-		46EB2E000014F0 /* Protobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00001510 /* Protobuf-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Protobuf-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00001520 /* Protobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00001530 /* Protobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Protobuf-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00001630 /* ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00001640 /* StackConsentManager-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "StackConsentManager-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E00001650 /* StackConsentManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackConsentManager.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00001660 /* StackConsentManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackConsentManager.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00001750 /* ResourceBundle-StackModules-StackModules-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-StackModules-StackModules-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000017F0 /* ResourceBundle-StackProductPresentation-StackModules-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-StackProductPresentation-StackModules-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00001890 /* ResourceBundle-StackRendering-StackModules-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-StackRendering-StackModules-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000018A0 /* StackModules-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "StackModules-xcframeworks.sh"; sourceTree = "<group>"; };
-		46EB2E000018B0 /* StackModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackModules.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E000018C0 /* StackModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackModules.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00001980 /* Pods-AbcGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00001990 /* Pods-AbcGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000019A0 /* Pods-AbcGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000019B0 /* Pods-AbcGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbcGame.modulemap"; sourceTree = "<group>"; };
-		46EB2E000019C0 /* Pods-AbcGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbcGame-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000019E0 /* Pods-AbcGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbcGame-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E000019F0 /* Pods-AbcGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbcGame-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00001A00 /* Pods-AbcGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00001A10 /* Pods-AbcGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGame-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00001A20 /* Pods-AbcGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGame-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00001AF0 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame-AbcGameUITests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00001B00 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame-AbcGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00001B10 /* Pods-AbcGame-AbcGameUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-AbcGameUITests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00001B20 /* Pods-AbcGame-AbcGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbcGame-AbcGameUITests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00001B30 /* Pods-AbcGame-AbcGameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbcGame-AbcGameUITests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00001B50 /* Pods-AbcGame-AbcGameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbcGame-AbcGameUITests-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00001B60 /* Pods-AbcGame-AbcGameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbcGame-AbcGameUITests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00001B70 /* Pods-AbcGame-AbcGameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-AbcGameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00001B80 /* Pods-AbcGame-AbcGameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGame-AbcGameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00001B90 /* Pods-AbcGame-AbcGameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGame-AbcGameUITests-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00001C60 /* Pods-AbcGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGameTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00001C70 /* Pods-AbcGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00001C80 /* Pods-AbcGameTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGameTests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00001C90 /* Pods-AbcGameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbcGameTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00001CA0 /* Pods-AbcGameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbcGameTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00001CC0 /* Pods-AbcGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00001CD0 /* Pods-AbcGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00001CE0 /* Pods-AbcGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGameTests-dummy.m"; sourceTree = "<group>"; };
-		4EF83EC89515C6B2EC98AB5997440EDC /* Bidon-BidonPrivacyInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Bidon-BidonPrivacyInfo"; path = BidonPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AFD5ABB7BD7BDF76253C611B7FAB0BB /* Appodeal-AppodealPrivacyInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Appodeal-AppodealPrivacyInfo"; path = AppodealPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		82A5BD968101C7B8B95B7212142C96E0 /* StackModules-StackModules */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackModules-StackModules"; path = StackModules.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources"; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000000B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E00000190 /* Pods-AbcGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000001A0 /* Pods-AbcGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000001B0 /* Pods-AbcGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000001C0 /* Pods-AbcGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbcGame.modulemap"; sourceTree = "<group>"; };
+		46EB2E000001D0 /* Pods-AbcGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbcGame-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000001F0 /* Pods-AbcGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000200 /* Pods-AbcGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000210 /* Pods-AbcGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGame-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000002E0 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame-AbcGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000002F0 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGame-AbcGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000300 /* Pods-AbcGame-AbcGameUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-AbcGameUITests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000310 /* Pods-AbcGame-AbcGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbcGame-AbcGameUITests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000320 /* Pods-AbcGame-AbcGameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbcGame-AbcGameUITests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000340 /* Pods-AbcGame-AbcGameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGame-AbcGameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000350 /* Pods-AbcGame-AbcGameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGame-AbcGameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000360 /* Pods-AbcGame-AbcGameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGame-AbcGameUITests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000430 /* Pods-AbcGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000440 /* Pods-AbcGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbcGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000450 /* Pods-AbcGameTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGameTests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000460 /* Pods-AbcGameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbcGameTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000470 /* Pods-AbcGameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbcGameTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000490 /* Pods-AbcGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000004A0 /* Pods-AbcGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000004B0 /* Pods-AbcGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGameTests-dummy.m"; sourceTree = "<group>"; };
 		AAF2EC5ACB37A0D413193096CA44E859 /* Pods-AbcGame-AbcGameUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbcGame-AbcGameUITests"; path = Pods_AbcGame_AbcGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2105C94812B6214B154F54DCEDB72AC /* Protobuf */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Protobuf; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F177E7716A29CA56BB659ACBA99ACE09 /* Pods-AbcGame */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbcGame"; path = Pods_AbcGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6EC733B74675E4F9AAE95810E064F6B /* StackModules-StackProductPresentation */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackModules-StackProductPresentation"; path = StackProductPresentation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Protobuf-Protobuf_Privacy"; path = Protobuf_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Google-Mobile-Ads-SDK"; path = Google_Mobile_Ads_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E00000940 /* Frameworks */ = {
+		46EB2E00000130 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2E00000170 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000AE0 /* Frameworks */ = {
+		46EB2E000002A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2E000002C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000BD0 /* Frameworks */ = {
+		46EB2E000003F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000C10 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000C80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000E20 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000F10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000F30 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000FA0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E000015F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001710 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E000017C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001860 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001940 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001960 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001AB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001AD0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001C20 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001C40 /* Foundation.framework in Frameworks */,
+				46EB2E00000410 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,9 +91,8 @@
 		46EB2E00000010 = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000130 /* Podfile */,
+				46EB2E000000B0 /* Podfile */,
 				46EB2E00000060 /* Frameworks */,
-				46EB2E00000080 /* Pods */,
 				46EB2E00000020 /* Products */,
 				46EB2E00000070 /* Targets Support Files */,
 			);
@@ -737,20 +101,9 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AFD5ABB7BD7BDF76253C611B7FAB0BB /* Appodeal-AppodealPrivacyInfo */,
-				4EF83EC89515C6B2EC98AB5997440EDC /* Bidon-BidonPrivacyInfo */,
-				F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */,
-				3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */,
-				8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
 				F177E7716A29CA56BB659ACBA99ACE09 /* Pods-AbcGame */,
 				AAF2EC5ACB37A0D413193096CA44E859 /* Pods-AbcGame-AbcGameUITests */,
 				2A7576CF77CC39A3AE925FD8C62A83EB /* Pods-AbcGameTests */,
-				C2105C94812B6214B154F54DCEDB72AC /* Protobuf */,
-				F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */,
-				4112269B36F33C98D09AF1B79A7E98E2 /* StackConsentManager-ConsentPrivacyInfo */,
-				82A5BD968101C7B8B95B7212142C96E0 /* StackModules-StackModules */,
-				F6EC733B74675E4F9AAE95810E064F6B /* StackModules-StackProductPresentation */,
-				2F14CF59C83FFAF21D1D395C7E6D1435 /* StackModules-StackRendering */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -758,7 +111,7 @@
 		46EB2E00000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000BF0 /* iOS */,
+				46EB2E00000150 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -766,526 +119,64 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00001970 /* Pods-AbcGame */,
-				46EB2E00001AE0 /* Pods-AbcGame-AbcGameUITests */,
-				46EB2E00001C50 /* Pods-AbcGameTests */,
+				46EB2E00000180 /* Pods-AbcGame */,
+				46EB2E000002D0 /* Pods-AbcGame-AbcGameUITests */,
+				46EB2E00000420 /* Pods-AbcGameTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		46EB2E00000080 /* Pods */ = {
+		46EB2E00000150 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000B0 /* Appodeal */,
-				46EB2E000000C0 /* AppodealGoogleAdMobAdapter */,
-				46EB2E000000D0 /* Bidon */,
-				46EB2E000000E0 /* Google-Mobile-Ads-SDK */,
-				46EB2E000000F0 /* GoogleUserMessagingPlatform */,
-				46EB2E00000100 /* Protobuf */,
-				46EB2E00000110 /* StackConsentManager */,
-				46EB2E00000120 /* StackModules */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		46EB2E000000B0 /* Appodeal */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000620 /* Frameworks */,
-				46EB2E00000780 /* Resources */,
-				46EB2E00000970 /* Support Files */,
-			);
-			name = Appodeal;
-			path = Appodeal;
-			sourceTree = "<group>";
-		};
-		46EB2E000000C0 /* AppodealGoogleAdMobAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000650 /* Frameworks */,
-				46EB2E00000A00 /* Support Files */,
-			);
-			name = AppodealGoogleAdMobAdapter;
-			path = AppodealGoogleAdMobAdapter;
-			sourceTree = "<group>";
-		};
-		46EB2E000000D0 /* Bidon */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000670 /* Frameworks */,
-				46EB2E000007A0 /* Resources */,
-				46EB2E00000B10 /* Support Files */,
-			);
-			name = Bidon;
-			path = Bidon;
-			sourceTree = "<group>";
-		};
-		46EB2E000000E0 /* Google-Mobile-Ads-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000140 /* GoogleMobileAdsPlaceholder.swift */,
-				46EB2E00000690 /* Frameworks */,
-				46EB2E000007C0 /* Resources */,
-				46EB2E00000CB0 /* Support Files */,
-			);
-			name = "Google-Mobile-Ads-SDK";
-			path = "Google-Mobile-Ads-SDK";
-			sourceTree = "<group>";
-		};
-		46EB2E000000F0 /* GoogleUserMessagingPlatform */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000006B0 /* Frameworks */,
-				46EB2E000007E0 /* Resources */,
-				46EB2E00000E50 /* Support Files */,
-			);
-			name = GoogleUserMessagingPlatform;
-			path = GoogleUserMessagingPlatform;
-			sourceTree = "<group>";
-		};
-		46EB2E00000100 /* Protobuf */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000580 /* Any.pbobjc.h */,
-				46EB2E00000590 /* Api.pbobjc.h */,
-				46EB2E000005A0 /* Duration.pbobjc.h */,
-				46EB2E000005B0 /* Empty.pbobjc.h */,
-				46EB2E000005C0 /* FieldMask.pbobjc.h */,
-				46EB2E00000150 /* GPBAny.pbobjc.h */,
-				46EB2E00000160 /* GPBAny.pbobjc.m */,
-				46EB2E00000170 /* GPBApi.pbobjc.h */,
-				46EB2E00000180 /* GPBApi.pbobjc.m */,
-				46EB2E00000190 /* GPBArray.h */,
-				46EB2E000001A0 /* GPBArray.m */,
-				46EB2E000001B0 /* GPBArray_PackagePrivate.h */,
-				46EB2E000001C0 /* GPBBootstrap.h */,
-				46EB2E000001D0 /* GPBCodedInputStream.h */,
-				46EB2E000001E0 /* GPBCodedInputStream.m */,
-				46EB2E000001F0 /* GPBCodedInputStream_PackagePrivate.h */,
-				46EB2E00000200 /* GPBCodedOutputStream.h */,
-				46EB2E00000210 /* GPBCodedOutputStream.m */,
-				46EB2E00000220 /* GPBCodedOutputStream_PackagePrivate.h */,
-				46EB2E00000230 /* GPBDescriptor.h */,
-				46EB2E00000240 /* GPBDescriptor.m */,
-				46EB2E00000250 /* GPBDescriptor_PackagePrivate.h */,
-				46EB2E00000260 /* GPBDictionary.h */,
-				46EB2E00000270 /* GPBDictionary.m */,
-				46EB2E00000280 /* GPBDictionary_PackagePrivate.h */,
-				46EB2E00000290 /* GPBDuration.pbobjc.h */,
-				46EB2E000002A0 /* GPBDuration.pbobjc.m */,
-				46EB2E000002B0 /* GPBEmpty.pbobjc.h */,
-				46EB2E000002C0 /* GPBEmpty.pbobjc.m */,
-				46EB2E000002D0 /* GPBExtensionInternals.h */,
-				46EB2E000002E0 /* GPBExtensionInternals.m */,
-				46EB2E000002F0 /* GPBExtensionRegistry.h */,
-				46EB2E00000300 /* GPBExtensionRegistry.m */,
-				46EB2E00000310 /* GPBFieldMask.pbobjc.h */,
-				46EB2E00000320 /* GPBFieldMask.pbobjc.m */,
-				46EB2E00000330 /* GPBMessage.h */,
-				46EB2E00000340 /* GPBMessage.m */,
-				46EB2E00000350 /* GPBMessage_PackagePrivate.h */,
-				46EB2E00000360 /* GPBProtocolBuffers.h */,
-				46EB2E00000370 /* GPBProtocolBuffers_RuntimeSupport.h */,
-				46EB2E00000380 /* GPBRootObject.h */,
-				46EB2E00000390 /* GPBRootObject.m */,
-				46EB2E000003A0 /* GPBRootObject_PackagePrivate.h */,
-				46EB2E000003B0 /* GPBRuntimeTypes.h */,
-				46EB2E000003C0 /* GPBSourceContext.pbobjc.h */,
-				46EB2E000003D0 /* GPBSourceContext.pbobjc.m */,
-				46EB2E000003E0 /* GPBStruct.pbobjc.h */,
-				46EB2E000003F0 /* GPBStruct.pbobjc.m */,
-				46EB2E00000400 /* GPBTimestamp.pbobjc.h */,
-				46EB2E00000410 /* GPBTimestamp.pbobjc.m */,
-				46EB2E00000420 /* GPBType.pbobjc.h */,
-				46EB2E00000430 /* GPBType.pbobjc.m */,
-				46EB2E00000450 /* GPBUnknownField.h */,
-				46EB2E00000460 /* GPBUnknownField.m */,
-				46EB2E00000440 /* GPBUnknownField+Additions.swift */,
-				46EB2E000004E0 /* GPBUnknownField_PackagePrivate.h */,
-				46EB2E00000480 /* GPBUnknownFields.h */,
-				46EB2E00000490 /* GPBUnknownFields.m */,
-				46EB2E00000470 /* GPBUnknownFields+Additions.swift */,
-				46EB2E000004D0 /* GPBUnknownFields_PackagePrivate.h */,
-				46EB2E000004A0 /* GPBUnknownFieldSet.h */,
-				46EB2E000004B0 /* GPBUnknownFieldSet.m */,
-				46EB2E000004C0 /* GPBUnknownFieldSet_PackagePrivate.h */,
-				46EB2E000004F0 /* GPBUtilities.h */,
-				46EB2E00000500 /* GPBUtilities.m */,
-				46EB2E00000510 /* GPBUtilities_PackagePrivate.h */,
-				46EB2E00000520 /* GPBWellKnownTypes.h */,
-				46EB2E00000530 /* GPBWellKnownTypes.m */,
-				46EB2E00000540 /* GPBWireFormat.h */,
-				46EB2E00000550 /* GPBWireFormat.m */,
-				46EB2E00000560 /* GPBWrappers.pbobjc.h */,
-				46EB2E00000570 /* GPBWrappers.pbobjc.m */,
-				46EB2E000005D0 /* SourceContext.pbobjc.h */,
-				46EB2E000005E0 /* Struct.pbobjc.h */,
-				46EB2E000005F0 /* Timestamp.pbobjc.h */,
-				46EB2E00000600 /* Type.pbobjc.h */,
-				46EB2E00000610 /* Wrappers.pbobjc.h */,
-				46EB2E00000800 /* Resources */,
-				46EB2E00000FD0 /* Support Files */,
-			);
-			name = Protobuf;
-			path = Protobuf;
-			sourceTree = "<group>";
-		};
-		46EB2E00000110 /* StackConsentManager */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000006D0 /* Frameworks */,
-				46EB2E00000820 /* Resources */,
-				46EB2E00001620 /* Support Files */,
-			);
-			name = StackConsentManager;
-			path = StackConsentManager;
-			sourceTree = "<group>";
-		};
-		46EB2E00000120 /* StackModules */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000006F0 /* Core-Static */,
-				46EB2E00000720 /* ProductPresentation-Static */,
-				46EB2E00000750 /* Rendering-Static */,
-				46EB2E00001740 /* Support Files */,
-			);
-			name = StackModules;
-			path = StackModules;
-			sourceTree = "<group>";
-		};
-		46EB2E00000620 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000630 /* Appodeal.xcframework */,
-				46EB2E00000640 /* AppodealMediationCore.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E00000650 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000660 /* APDGoogleAdMobAdapter.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E00000670 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000680 /* Bidon.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E00000690 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000006A0 /* GoogleMobileAds.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E000006B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000006C0 /* UserMessagingPlatform.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E000006D0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000006E0 /* StackConsentManager.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E000006F0 /* Core-Static */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000700 /* Frameworks */,
-				46EB2E00000840 /* Resources */,
-			);
-			name = "Core-Static";
-			sourceTree = "<group>";
-		};
-		46EB2E00000700 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000710 /* StackModules.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E00000720 /* ProductPresentation-Static */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000730 /* Frameworks */,
-				46EB2E00000860 /* Resources */,
-			);
-			name = "ProductPresentation-Static";
-			sourceTree = "<group>";
-		};
-		46EB2E00000730 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000740 /* StackProductPresentation.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E00000750 /* Rendering-Static */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000760 /* Frameworks */,
-				46EB2E00000880 /* Resources */,
-			);
-			name = "Rendering-Static";
-			sourceTree = "<group>";
-		};
-		46EB2E00000760 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000770 /* StackRendering.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46EB2E00000780 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000790 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E000007A0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000007B0 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E000007C0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000007D0 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E000007E0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000007F0 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E00000800 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000810 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E00000820 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000830 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E00000840 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000850 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E00000860 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000870 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E00000880 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000890 /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46EB2E00000970 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000990 /* Appodeal-xcframeworks.sh */,
-				46EB2E000009A0 /* Appodeal.debug.xcconfig */,
-				46EB2E000009B0 /* Appodeal.release.xcconfig */,
-				46EB2E00000980 /* ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Appodeal";
-			sourceTree = "<group>";
-		};
-		46EB2E00000A00 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000A10 /* AppodealGoogleAdMobAdapter-xcframeworks.sh */,
-				46EB2E00000A20 /* AppodealGoogleAdMobAdapter.debug.xcconfig */,
-				46EB2E00000A30 /* AppodealGoogleAdMobAdapter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AppodealGoogleAdMobAdapter";
-			sourceTree = "<group>";
-		};
-		46EB2E00000B10 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000B30 /* Bidon-xcframeworks.sh */,
-				46EB2E00000B40 /* Bidon.debug.xcconfig */,
-				46EB2E00000B50 /* Bidon.release.xcconfig */,
-				46EB2E00000B20 /* ResourceBundle-BidonPrivacyInfo-Bidon-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Bidon";
-			sourceTree = "<group>";
-		};
-		46EB2E00000BF0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000C00 /* Foundation.framework */,
+				46EB2E00000160 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		46EB2E00000CB0 /* Support Files */ = {
+		46EB2E00000180 /* Pods-AbcGame */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000D10 /* Google-Mobile-Ads-SDK.modulemap */,
-				46EB2E00000D60 /* Google-Mobile-Ads-SDK-dummy.m */,
-				46EB2E00000D40 /* Google-Mobile-Ads-SDK-Info.plist */,
-				46EB2E00000D50 /* Google-Mobile-Ads-SDK-prefix.pch */,
-				46EB2E00000D20 /* Google-Mobile-Ads-SDK-umbrella.h */,
-				46EB2E00000CE0 /* Google-Mobile-Ads-SDK-xcframeworks.sh */,
-				46EB2E00000CF0 /* Google-Mobile-Ads-SDK.debug.xcconfig */,
-				46EB2E00000D00 /* Google-Mobile-Ads-SDK.release.xcconfig */,
-				46EB2E00000CC0 /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Google-Mobile-Ads-SDK";
-			sourceTree = "<group>";
-		};
-		46EB2E00000E50 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000E70 /* GoogleUserMessagingPlatform-xcframeworks.sh */,
-				46EB2E00000E80 /* GoogleUserMessagingPlatform.debug.xcconfig */,
-				46EB2E00000E90 /* GoogleUserMessagingPlatform.release.xcconfig */,
-				46EB2E00000E60 /* ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleUserMessagingPlatform";
-			sourceTree = "<group>";
-		};
-		46EB2E00000FD0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000014E0 /* Protobuf.modulemap */,
-				46EB2E00001530 /* Protobuf-dummy.m */,
-				46EB2E00001510 /* Protobuf-Info.plist */,
-				46EB2E00001520 /* Protobuf-prefix.pch */,
-				46EB2E000014F0 /* Protobuf-umbrella.h */,
-				46EB2E000014C0 /* Protobuf.debug.xcconfig */,
-				46EB2E000014D0 /* Protobuf.release.xcconfig */,
-				46EB2E00000FE0 /* ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Protobuf";
-			sourceTree = "<group>";
-		};
-		46EB2E00001620 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00001630 /* ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist */,
-				46EB2E00001640 /* StackConsentManager-xcframeworks.sh */,
-				46EB2E00001650 /* StackConsentManager.debug.xcconfig */,
-				46EB2E00001660 /* StackConsentManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/StackConsentManager";
-			sourceTree = "<group>";
-		};
-		46EB2E00001740 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00001750 /* ResourceBundle-StackModules-StackModules-Info.plist */,
-				46EB2E000017F0 /* ResourceBundle-StackProductPresentation-StackModules-Info.plist */,
-				46EB2E00001890 /* ResourceBundle-StackRendering-StackModules-Info.plist */,
-				46EB2E000018A0 /* StackModules-xcframeworks.sh */,
-				46EB2E000018B0 /* StackModules.debug.xcconfig */,
-				46EB2E000018C0 /* StackModules.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/StackModules";
-			sourceTree = "<group>";
-		};
-		46EB2E00001970 /* Pods-AbcGame */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000019B0 /* Pods-AbcGame.modulemap */,
-				46EB2E00001A10 /* Pods-AbcGame-acknowledgements.markdown */,
-				46EB2E00001A00 /* Pods-AbcGame-acknowledgements.plist */,
-				46EB2E00001A20 /* Pods-AbcGame-dummy.m */,
-				46EB2E000019E0 /* Pods-AbcGame-frameworks.sh */,
-				46EB2E000019A0 /* Pods-AbcGame-Info.plist */,
-				46EB2E000019F0 /* Pods-AbcGame-resources.sh */,
-				46EB2E000019C0 /* Pods-AbcGame-umbrella.h */,
-				46EB2E00001990 /* Pods-AbcGame.debug.xcconfig */,
-				46EB2E00001980 /* Pods-AbcGame.release.xcconfig */,
+				46EB2E000001C0 /* Pods-AbcGame.modulemap */,
+				46EB2E00000200 /* Pods-AbcGame-acknowledgements.markdown */,
+				46EB2E000001F0 /* Pods-AbcGame-acknowledgements.plist */,
+				46EB2E00000210 /* Pods-AbcGame-dummy.m */,
+				46EB2E000001B0 /* Pods-AbcGame-Info.plist */,
+				46EB2E000001D0 /* Pods-AbcGame-umbrella.h */,
+				46EB2E000001A0 /* Pods-AbcGame.debug.xcconfig */,
+				46EB2E00000190 /* Pods-AbcGame.release.xcconfig */,
 			);
 			name = "Pods-AbcGame";
 			path = "Target Support Files/Pods-AbcGame";
 			sourceTree = "<group>";
 		};
-		46EB2E00001AE0 /* Pods-AbcGame-AbcGameUITests */ = {
+		46EB2E000002D0 /* Pods-AbcGame-AbcGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00001B20 /* Pods-AbcGame-AbcGameUITests.modulemap */,
-				46EB2E00001B80 /* Pods-AbcGame-AbcGameUITests-acknowledgements.markdown */,
-				46EB2E00001B70 /* Pods-AbcGame-AbcGameUITests-acknowledgements.plist */,
-				46EB2E00001B90 /* Pods-AbcGame-AbcGameUITests-dummy.m */,
-				46EB2E00001B50 /* Pods-AbcGame-AbcGameUITests-frameworks.sh */,
-				46EB2E00001B10 /* Pods-AbcGame-AbcGameUITests-Info.plist */,
-				46EB2E00001B60 /* Pods-AbcGame-AbcGameUITests-resources.sh */,
-				46EB2E00001B30 /* Pods-AbcGame-AbcGameUITests-umbrella.h */,
-				46EB2E00001B00 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */,
-				46EB2E00001AF0 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */,
+				46EB2E00000310 /* Pods-AbcGame-AbcGameUITests.modulemap */,
+				46EB2E00000350 /* Pods-AbcGame-AbcGameUITests-acknowledgements.markdown */,
+				46EB2E00000340 /* Pods-AbcGame-AbcGameUITests-acknowledgements.plist */,
+				46EB2E00000360 /* Pods-AbcGame-AbcGameUITests-dummy.m */,
+				46EB2E00000300 /* Pods-AbcGame-AbcGameUITests-Info.plist */,
+				46EB2E00000320 /* Pods-AbcGame-AbcGameUITests-umbrella.h */,
+				46EB2E000002F0 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */,
+				46EB2E000002E0 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */,
 			);
 			name = "Pods-AbcGame-AbcGameUITests";
 			path = "Target Support Files/Pods-AbcGame-AbcGameUITests";
 			sourceTree = "<group>";
 		};
-		46EB2E00001C50 /* Pods-AbcGameTests */ = {
+		46EB2E00000420 /* Pods-AbcGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00001C90 /* Pods-AbcGameTests.modulemap */,
-				46EB2E00001CD0 /* Pods-AbcGameTests-acknowledgements.markdown */,
-				46EB2E00001CC0 /* Pods-AbcGameTests-acknowledgements.plist */,
-				46EB2E00001CE0 /* Pods-AbcGameTests-dummy.m */,
-				46EB2E00001C80 /* Pods-AbcGameTests-Info.plist */,
-				46EB2E00001CA0 /* Pods-AbcGameTests-umbrella.h */,
-				46EB2E00001C70 /* Pods-AbcGameTests.debug.xcconfig */,
-				46EB2E00001C60 /* Pods-AbcGameTests.release.xcconfig */,
+				46EB2E00000460 /* Pods-AbcGameTests.modulemap */,
+				46EB2E000004A0 /* Pods-AbcGameTests-acknowledgements.markdown */,
+				46EB2E00000490 /* Pods-AbcGameTests-acknowledgements.plist */,
+				46EB2E000004B0 /* Pods-AbcGameTests-dummy.m */,
+				46EB2E00000450 /* Pods-AbcGameTests-Info.plist */,
+				46EB2E00000470 /* Pods-AbcGameTests-umbrella.h */,
+				46EB2E00000440 /* Pods-AbcGameTests.debug.xcconfig */,
+				46EB2E00000430 /* Pods-AbcGameTests.release.xcconfig */,
 			);
 			name = "Pods-AbcGameTests";
 			path = "Target Support Files/Pods-AbcGameTests";
@@ -1294,361 +185,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E00000BB0 /* Headers */ = {
+		46EB2E00000110 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000D30 /* Google-Mobile-Ads-SDK-umbrella.h in Headers */,
+				46EB2E000001E0 /* Pods-AbcGame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000EF0 /* Headers */ = {
+		46EB2E00000280 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00001420 /* Any.pbobjc.h in Headers */,
-				46EB2E00001430 /* Api.pbobjc.h in Headers */,
-				46EB2E00001440 /* Duration.pbobjc.h in Headers */,
-				46EB2E00001450 /* Empty.pbobjc.h in Headers */,
-				46EB2E00001460 /* FieldMask.pbobjc.h in Headers */,
-				46EB2E000011A0 /* GPBAny.pbobjc.h in Headers */,
-				46EB2E000011B0 /* GPBApi.pbobjc.h in Headers */,
-				46EB2E000011C0 /* GPBArray.h in Headers */,
-				46EB2E000011D0 /* GPBArray_PackagePrivate.h in Headers */,
-				46EB2E000011E0 /* GPBBootstrap.h in Headers */,
-				46EB2E000011F0 /* GPBCodedInputStream.h in Headers */,
-				46EB2E00001200 /* GPBCodedInputStream_PackagePrivate.h in Headers */,
-				46EB2E00001210 /* GPBCodedOutputStream.h in Headers */,
-				46EB2E00001220 /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
-				46EB2E00001230 /* GPBDescriptor.h in Headers */,
-				46EB2E00001240 /* GPBDescriptor_PackagePrivate.h in Headers */,
-				46EB2E00001250 /* GPBDictionary.h in Headers */,
-				46EB2E00001260 /* GPBDictionary_PackagePrivate.h in Headers */,
-				46EB2E00001270 /* GPBDuration.pbobjc.h in Headers */,
-				46EB2E00001280 /* GPBEmpty.pbobjc.h in Headers */,
-				46EB2E00001290 /* GPBExtensionInternals.h in Headers */,
-				46EB2E000012A0 /* GPBExtensionRegistry.h in Headers */,
-				46EB2E000012B0 /* GPBFieldMask.pbobjc.h in Headers */,
-				46EB2E000012C0 /* GPBMessage.h in Headers */,
-				46EB2E000012D0 /* GPBMessage_PackagePrivate.h in Headers */,
-				46EB2E000012E0 /* GPBProtocolBuffers.h in Headers */,
-				46EB2E000012F0 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
-				46EB2E00001300 /* GPBRootObject.h in Headers */,
-				46EB2E00001310 /* GPBRootObject_PackagePrivate.h in Headers */,
-				46EB2E00001320 /* GPBRuntimeTypes.h in Headers */,
-				46EB2E00001330 /* GPBSourceContext.pbobjc.h in Headers */,
-				46EB2E00001340 /* GPBStruct.pbobjc.h in Headers */,
-				46EB2E00001350 /* GPBTimestamp.pbobjc.h in Headers */,
-				46EB2E00001360 /* GPBType.pbobjc.h in Headers */,
-				46EB2E00001370 /* GPBUnknownField.h in Headers */,
-				46EB2E000013C0 /* GPBUnknownField_PackagePrivate.h in Headers */,
-				46EB2E00001380 /* GPBUnknownFields.h in Headers */,
-				46EB2E000013B0 /* GPBUnknownFields_PackagePrivate.h in Headers */,
-				46EB2E00001390 /* GPBUnknownFieldSet.h in Headers */,
-				46EB2E000013A0 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
-				46EB2E000013D0 /* GPBUtilities.h in Headers */,
-				46EB2E000013E0 /* GPBUtilities_PackagePrivate.h in Headers */,
-				46EB2E000013F0 /* GPBWellKnownTypes.h in Headers */,
-				46EB2E00001400 /* GPBWireFormat.h in Headers */,
-				46EB2E00001410 /* GPBWrappers.pbobjc.h in Headers */,
-				46EB2E00001500 /* Protobuf-umbrella.h in Headers */,
-				46EB2E00001470 /* SourceContext.pbobjc.h in Headers */,
-				46EB2E00001480 /* Struct.pbobjc.h in Headers */,
-				46EB2E00001490 /* Timestamp.pbobjc.h in Headers */,
-				46EB2E000014A0 /* Type.pbobjc.h in Headers */,
-				46EB2E000014B0 /* Wrappers.pbobjc.h in Headers */,
+				46EB2E00000330 /* Pods-AbcGame-AbcGameUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00001920 /* Headers */ = {
+		46EB2E000003D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000019D0 /* Pods-AbcGame-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001A90 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001B40 /* Pods-AbcGame-AbcGameUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001C00 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001CB0 /* Pods-AbcGameTests-umbrella.h in Headers */,
+				46EB2E00000480 /* Pods-AbcGameTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		331902F14E62290AA86FB37CAAC6ABB0 /* Protobuf-Protobuf_Privacy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000F50 /* Build configuration list for PBXNativeTarget "Protobuf-Protobuf_Privacy" */;
-			buildPhases = (
-				46EB2E00000F90 /* Sources */,
-				46EB2E00000FA0 /* Frameworks */,
-				46EB2E00000FB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Protobuf-Protobuf_Privacy";
-			productName = Protobuf_Privacy;
-			productReference = F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */;
-			productType = "com.apple.product-type.bundle";
-		};
-		36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000C30 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */;
-			buildPhases = (
-				46EB2E00000C70 /* Sources */,
-				46EB2E00000C80 /* Frameworks */,
-				46EB2E00000C90 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
-			productName = GoogleMobileAdsResources;
-			productReference = 3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
-			productType = "com.apple.product-type.bundle";
-		};
 		395612856A82F9103EC398EC258A9E63 /* Pods-AbcGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00001BC0 /* Build configuration list for PBXNativeTarget "Pods-AbcGameTests" */;
+			buildConfigurationList = 46EB2E00000390 /* Build configuration list for PBXNativeTarget "Pods-AbcGameTests" */;
 			buildPhases = (
-				46EB2E00001C00 /* Headers */,
-				46EB2E00001C10 /* Sources */,
-				46EB2E00001C20 /* Frameworks */,
-				46EB2E00001C30 /* Resources */,
+				46EB2E000003D0 /* Headers */,
+				46EB2E000003E0 /* Sources */,
+				46EB2E000003F0 /* Frameworks */,
+				46EB2E00000400 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00001F80 /* PBXTargetDependency */,
+				46EB2E000004E0 /* PBXTargetDependency */,
 			);
 			name = "Pods-AbcGameTests";
 			productName = Pods_AbcGameTests;
 			productReference = 2A7576CF77CC39A3AE925FD8C62A83EB /* Pods-AbcGameTests */;
 			productType = "com.apple.product-type.framework";
 		};
-		470FE31978DC918618A329D8B55C85FF /* Protobuf */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000EB0 /* Build configuration list for PBXNativeTarget "Protobuf" */;
-			buildPhases = (
-				46EB2E00000EF0 /* Headers */,
-				46EB2E00000F00 /* Sources */,
-				46EB2E00000F10 /* Frameworks */,
-				46EB2E00000F20 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E00002100 /* PBXTargetDependency */,
-			);
-			name = Protobuf;
-			productName = Protobuf;
-			productReference = C2105C94812B6214B154F54DCEDB72AC /* Protobuf */;
-			productType = "com.apple.product-type.framework";
-		};
 		4BD42CF3262BB684623C2F354684EE8A /* Pods-AbcGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000018E0 /* Build configuration list for PBXNativeTarget "Pods-AbcGame" */;
+			buildConfigurationList = 46EB2E000000D0 /* Build configuration list for PBXNativeTarget "Pods-AbcGame" */;
 			buildPhases = (
-				46EB2E00001920 /* Headers */,
-				46EB2E00001930 /* Sources */,
-				46EB2E00001940 /* Frameworks */,
-				46EB2E00001950 /* Resources */,
+				46EB2E00000110 /* Headers */,
+				46EB2E00000120 /* Sources */,
+				46EB2E00000130 /* Frameworks */,
+				46EB2E00000140 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00001D80 /* PBXTargetDependency */,
-				46EB2E00001DA0 /* PBXTargetDependency */,
-				46EB2E00001DC0 /* PBXTargetDependency */,
-				46EB2E00001DE0 /* PBXTargetDependency */,
-				46EB2E00001E00 /* PBXTargetDependency */,
-				46EB2E00001E20 /* PBXTargetDependency */,
-				46EB2E00001E40 /* PBXTargetDependency */,
-				46EB2E00001E60 /* PBXTargetDependency */,
 			);
 			name = "Pods-AbcGame";
 			productName = Pods_AbcGame;
 			productReference = F177E7716A29CA56BB659ACBA99ACE09 /* Pods-AbcGame */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D2D0EB1F6AED5A8E858AC7C243A9087 /* StackModules-StackProductPresentation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00001770 /* Build configuration list for PBXNativeTarget "StackModules-StackProductPresentation" */;
-			buildPhases = (
-				46EB2E000017B0 /* Sources */,
-				46EB2E000017C0 /* Frameworks */,
-				46EB2E000017D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "StackModules-StackProductPresentation";
-			productName = StackProductPresentation;
-			productReference = F6EC733B74675E4F9AAE95810E064F6B /* StackModules-StackProductPresentation */;
-			productType = "com.apple.product-type.bundle";
-		};
-		63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000DD0 /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */;
-			buildPhases = (
-				46EB2E00000E10 /* Sources */,
-				46EB2E00000E20 /* Frameworks */,
-				46EB2E00000E30 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
-			productName = UserMessagingPlatformResources;
-			productReference = 8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6C60A15D94751CC0C485F4424EF834D5 /* Appodeal-AppodealPrivacyInfo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000008F0 /* Build configuration list for PBXNativeTarget "Appodeal-AppodealPrivacyInfo" */;
-			buildPhases = (
-				46EB2E00000930 /* Sources */,
-				46EB2E00000940 /* Frameworks */,
-				46EB2E00000950 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Appodeal-AppodealPrivacyInfo";
-			productName = AppodealPrivacyInfo;
-			productReference = 5AFD5ABB7BD7BDF76253C611B7FAB0BB /* Appodeal-AppodealPrivacyInfo */;
-			productType = "com.apple.product-type.bundle";
-		};
-		91D9CBCA9AA32FDF1B5673757F7635DE /* StackConsentManager-ConsentPrivacyInfo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000015A0 /* Build configuration list for PBXNativeTarget "StackConsentManager-ConsentPrivacyInfo" */;
-			buildPhases = (
-				46EB2E000015E0 /* Sources */,
-				46EB2E000015F0 /* Frameworks */,
-				46EB2E00001600 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "StackConsentManager-ConsentPrivacyInfo";
-			productName = ConsentPrivacyInfo;
-			productReference = 4112269B36F33C98D09AF1B79A7E98E2 /* StackConsentManager-ConsentPrivacyInfo */;
-			productType = "com.apple.product-type.bundle";
-		};
-		E40F8194A93D9DD5F0F1325C957E8BC1 /* StackModules-StackModules */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000016C0 /* Build configuration list for PBXNativeTarget "StackModules-StackModules" */;
-			buildPhases = (
-				46EB2E00001700 /* Sources */,
-				46EB2E00001710 /* Frameworks */,
-				46EB2E00001720 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "StackModules-StackModules";
-			productName = StackModules;
-			productReference = 82A5BD968101C7B8B95B7212142C96E0 /* StackModules-StackModules */;
-			productType = "com.apple.product-type.bundle";
-		};
-		E9DF2FCF0536FE85957E0982A6BD4C77 /* StackModules-StackRendering */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00001810 /* Build configuration list for PBXNativeTarget "StackModules-StackRendering" */;
-			buildPhases = (
-				46EB2E00001850 /* Sources */,
-				46EB2E00001860 /* Frameworks */,
-				46EB2E00001870 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "StackModules-StackRendering";
-			productName = StackRendering;
-			productReference = 2F14CF59C83FFAF21D1D395C7E6D1435 /* StackModules-StackRendering */;
-			productType = "com.apple.product-type.bundle";
-		};
 		EC957AE454E89EE3B22CA354D70BCD7F /* Pods-AbcGame-AbcGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00001A50 /* Build configuration list for PBXNativeTarget "Pods-AbcGame-AbcGameUITests" */;
+			buildConfigurationList = 46EB2E00000240 /* Build configuration list for PBXNativeTarget "Pods-AbcGame-AbcGameUITests" */;
 			buildPhases = (
-				46EB2E00001A90 /* Headers */,
-				46EB2E00001AA0 /* Sources */,
-				46EB2E00001AB0 /* Frameworks */,
-				46EB2E00001AC0 /* Resources */,
+				46EB2E00000280 /* Headers */,
+				46EB2E00000290 /* Sources */,
+				46EB2E000002A0 /* Frameworks */,
+				46EB2E000002B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00001E80 /* PBXTargetDependency */,
-				46EB2E00001EA0 /* PBXTargetDependency */,
-				46EB2E00001EC0 /* PBXTargetDependency */,
-				46EB2E00001EE0 /* PBXTargetDependency */,
-				46EB2E00001F00 /* PBXTargetDependency */,
-				46EB2E00001F20 /* PBXTargetDependency */,
-				46EB2E00001F40 /* PBXTargetDependency */,
-				46EB2E00001F60 /* PBXTargetDependency */,
 			);
 			name = "Pods-AbcGame-AbcGameUITests";
 			productName = Pods_AbcGame_AbcGameUITests;
 			productReference = AAF2EC5ACB37A0D413193096CA44E859 /* Pods-AbcGame-AbcGameUITests */;
-			productType = "com.apple.product-type.framework";
-		};
-		FAF21087A7343229930AF884A40DE555 /* Bidon-BidonPrivacyInfo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000A90 /* Build configuration list for PBXNativeTarget "Bidon-BidonPrivacyInfo" */;
-			buildPhases = (
-				46EB2E00000AD0 /* Sources */,
-				46EB2E00000AE0 /* Frameworks */,
-				46EB2E00000AF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Bidon-BidonPrivacyInfo";
-			productName = BidonPrivacyInfo;
-			productReference = 4EF83EC89515C6B2EC98AB5997440EDC /* Bidon-BidonPrivacyInfo */;
-			productType = "com.apple.product-type.bundle";
-		};
-		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000B70 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK" */;
-			buildPhases = (
-				46EB2E00000BB0 /* Headers */,
-				46EB2E00001D30 /* [CP] Copy XCFrameworks */,
-				46EB2E00000BC0 /* Sources */,
-				46EB2E00000BD0 /* Frameworks */,
-				46EB2E00000BE0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E000020A0 /* PBXTargetDependency */,
-				46EB2E000020C0 /* PBXTargetDependency */,
-			);
-			name = "Google-Mobile-Ads-SDK";
-			productName = Google_Mobile_Ads_SDK;
-			productReference = F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1675,133 +291,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				087AC1963339F13CD6B6C620239AD54A /* Appodeal */,
-				6C60A15D94751CC0C485F4424EF834D5 /* Appodeal-AppodealPrivacyInfo */,
-				668FF09CD3946D32D9B36D5B600F4E8D /* AppodealGoogleAdMobAdapter */,
-				DD307CDA45EFF2CA319B027D91EDFBBF /* Bidon */,
-				FAF21087A7343229930AF884A40DE555 /* Bidon-BidonPrivacyInfo */,
-				FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */,
-				36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */,
-				458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */,
-				63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
 				4BD42CF3262BB684623C2F354684EE8A /* Pods-AbcGame */,
 				EC957AE454E89EE3B22CA354D70BCD7F /* Pods-AbcGame-AbcGameUITests */,
 				395612856A82F9103EC398EC258A9E63 /* Pods-AbcGameTests */,
-				470FE31978DC918618A329D8B55C85FF /* Protobuf */,
-				331902F14E62290AA86FB37CAAC6ABB0 /* Protobuf-Protobuf_Privacy */,
-				0AFD652CA2DA4EFFDE28DEBAE30FE34C /* StackConsentManager */,
-				91D9CBCA9AA32FDF1B5673757F7635DE /* StackConsentManager-ConsentPrivacyInfo */,
-				D905649A37FE7E236C51D78FFBBA798F /* StackModules */,
-				E40F8194A93D9DD5F0F1325C957E8BC1 /* StackModules-StackModules */,
-				5D2D0EB1F6AED5A8E858AC7C243A9087 /* StackModules-StackProductPresentation */,
-				E9DF2FCF0536FE85957E0982A6BD4C77 /* StackModules-StackRendering */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E00000950 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000960 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000AF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000B00 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000BE0 /* Resources */ = {
+		46EB2E00000140 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000C90 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000CA0 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000E30 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000E40 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000F20 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00002110 /* Protobuf-Protobuf_Privacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000FB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000FC0 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001600 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001610 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001720 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001730 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E000017D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E000017E0 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001870 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001880 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001950 /* Resources */ = {
+		46EB2E000002B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00001AC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001C30 /* Resources */ = {
+		46EB2E00000400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1810,466 +322,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		46EB2E00001D00 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Appodeal/Appodeal-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Appodeal/Appodeal-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Appodeal/Appodeal-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EB2E00001D10 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/AppodealGoogleAdMobAdapter/AppodealGoogleAdMobAdapter-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/AppodealGoogleAdMobAdapter/AppodealGoogleAdMobAdapter-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/AppodealGoogleAdMobAdapter/AppodealGoogleAdMobAdapter-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EB2E00001D20 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Bidon/Bidon-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Bidon/Bidon-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Bidon/Bidon-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EB2E00001D30 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EB2E00001D40 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EB2E00001D50 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/StackConsentManager/StackConsentManager-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/StackConsentManager/StackConsentManager-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/StackConsentManager/StackConsentManager-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EB2E00001D60 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/StackModules/StackModules-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/StackModules/StackModules-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/StackModules/StackModules-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E00000930 /* Sources */ = {
+		46EB2E00000120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2E00000220 /* Pods-AbcGame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000AD0 /* Sources */ = {
+		46EB2E00000290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2E00000370 /* Pods-AbcGame-AbcGameUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000BC0 /* Sources */ = {
+		46EB2E000003E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000D70 /* Google-Mobile-Ads-SDK-dummy.m in Sources */,
-				46EB2E00000CD0 /* GoogleMobileAdsPlaceholder.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000C70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000E10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000F00 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00000FF0 /* GPBAny.pbobjc.m in Sources */,
-				46EB2E00001000 /* GPBApi.pbobjc.m in Sources */,
-				46EB2E00001010 /* GPBArray.m in Sources */,
-				46EB2E00001020 /* GPBCodedInputStream.m in Sources */,
-				46EB2E00001030 /* GPBCodedOutputStream.m in Sources */,
-				46EB2E00001040 /* GPBDescriptor.m in Sources */,
-				46EB2E00001050 /* GPBDictionary.m in Sources */,
-				46EB2E00001060 /* GPBDuration.pbobjc.m in Sources */,
-				46EB2E00001070 /* GPBEmpty.pbobjc.m in Sources */,
-				46EB2E00001080 /* GPBExtensionInternals.m in Sources */,
-				46EB2E00001090 /* GPBExtensionRegistry.m in Sources */,
-				46EB2E000010A0 /* GPBFieldMask.pbobjc.m in Sources */,
-				46EB2E000010B0 /* GPBMessage.m in Sources */,
-				46EB2E000010C0 /* GPBRootObject.m in Sources */,
-				46EB2E000010D0 /* GPBSourceContext.pbobjc.m in Sources */,
-				46EB2E000010E0 /* GPBStruct.pbobjc.m in Sources */,
-				46EB2E000010F0 /* GPBTimestamp.pbobjc.m in Sources */,
-				46EB2E00001100 /* GPBType.pbobjc.m in Sources */,
-				46EB2E00001110 /* GPBUnknownField.m in Sources */,
-				46EB2E00001180 /* GPBUnknownField+Additions.swift in Sources */,
-				46EB2E00001120 /* GPBUnknownFields.m in Sources */,
-				46EB2E00001190 /* GPBUnknownFields+Additions.swift in Sources */,
-				46EB2E00001130 /* GPBUnknownFieldSet.m in Sources */,
-				46EB2E00001140 /* GPBUtilities.m in Sources */,
-				46EB2E00001150 /* GPBWellKnownTypes.m in Sources */,
-				46EB2E00001160 /* GPBWireFormat.m in Sources */,
-				46EB2E00001170 /* GPBWrappers.pbobjc.m in Sources */,
-				46EB2E00001540 /* Protobuf-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000F90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E000015E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001700 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E000017B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001850 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001930 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001A30 /* Pods-AbcGame-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001AA0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001BA0 /* Pods-AbcGame-AbcGameUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00001C10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EB2E00001CF0 /* Pods-AbcGameTests-dummy.m in Sources */,
+				46EB2E000004C0 /* Pods-AbcGameTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E00001D80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Appodeal;
-			target = 087AC1963339F13CD6B6C620239AD54A /* Appodeal */;
-			targetProxy = 46EB2E00001D70 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001DA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppodealGoogleAdMobAdapter;
-			target = 668FF09CD3946D32D9B36D5B600F4E8D /* AppodealGoogleAdMobAdapter */;
-			targetProxy = 46EB2E00001D90 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001DC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bidon;
-			target = DD307CDA45EFF2CA319B027D91EDFBBF /* Bidon */;
-			targetProxy = 46EB2E00001DB0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001DE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK";
-			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
-			targetProxy = 46EB2E00001DD0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001E00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUserMessagingPlatform;
-			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
-			targetProxy = 46EB2E00001DF0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001E20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Protobuf;
-			target = 470FE31978DC918618A329D8B55C85FF /* Protobuf */;
-			targetProxy = 46EB2E00001E10 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001E40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StackConsentManager;
-			target = 0AFD652CA2DA4EFFDE28DEBAE30FE34C /* StackConsentManager */;
-			targetProxy = 46EB2E00001E30 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001E60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StackModules;
-			target = D905649A37FE7E236C51D78FFBBA798F /* StackModules */;
-			targetProxy = 46EB2E00001E50 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001E80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Appodeal;
-			target = 087AC1963339F13CD6B6C620239AD54A /* Appodeal */;
-			targetProxy = 46EB2E00001E70 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001EA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppodealGoogleAdMobAdapter;
-			target = 668FF09CD3946D32D9B36D5B600F4E8D /* AppodealGoogleAdMobAdapter */;
-			targetProxy = 46EB2E00001E90 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001EC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bidon;
-			target = DD307CDA45EFF2CA319B027D91EDFBBF /* Bidon */;
-			targetProxy = 46EB2E00001EB0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001EE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK";
-			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
-			targetProxy = 46EB2E00001ED0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001F00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUserMessagingPlatform;
-			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
-			targetProxy = 46EB2E00001EF0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001F20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Protobuf;
-			target = 470FE31978DC918618A329D8B55C85FF /* Protobuf */;
-			targetProxy = 46EB2E00001F10 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001F40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StackConsentManager;
-			target = 0AFD652CA2DA4EFFDE28DEBAE30FE34C /* StackConsentManager */;
-			targetProxy = 46EB2E00001F30 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001F60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StackModules;
-			target = D905649A37FE7E236C51D78FFBBA798F /* StackModules */;
-			targetProxy = 46EB2E00001F50 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001F80 /* PBXTargetDependency */ = {
+		46EB2E000004E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AbcGame";
 			target = 4BD42CF3262BB684623C2F354684EE8A /* Pods-AbcGame */;
-			targetProxy = 46EB2E00001F70 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001FA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Appodeal-AppodealPrivacyInfo";
-			target = 6C60A15D94751CC0C485F4424EF834D5 /* Appodeal-AppodealPrivacyInfo */;
-			targetProxy = 46EB2E00001F90 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001FC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Protobuf;
-			target = 470FE31978DC918618A329D8B55C85FF /* Protobuf */;
-			targetProxy = 46EB2E00001FB0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00001FE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StackConsentManager;
-			target = 0AFD652CA2DA4EFFDE28DEBAE30FE34C /* StackConsentManager */;
-			targetProxy = 46EB2E00001FD0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002000 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StackModules;
-			target = D905649A37FE7E236C51D78FFBBA798F /* StackModules */;
-			targetProxy = 46EB2E00001FF0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002020 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK";
-			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
-			targetProxy = 46EB2E00002010 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002040 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bidon;
-			target = DD307CDA45EFF2CA319B027D91EDFBBF /* Bidon */;
-			targetProxy = 46EB2E00002030 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002060 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Appodeal;
-			target = 087AC1963339F13CD6B6C620239AD54A /* Appodeal */;
-			targetProxy = 46EB2E00002050 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002080 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Bidon-BidonPrivacyInfo";
-			target = FAF21087A7343229930AF884A40DE555 /* Bidon-BidonPrivacyInfo */;
-			targetProxy = 46EB2E00002070 /* PBXContainerItemProxy */;
-		};
-		46EB2E000020A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
-			target = 36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
-			targetProxy = 46EB2E00002090 /* PBXContainerItemProxy */;
-		};
-		46EB2E000020C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUserMessagingPlatform;
-			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
-			targetProxy = 46EB2E000020B0 /* PBXContainerItemProxy */;
-		};
-		46EB2E000020E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
-			target = 63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
-			targetProxy = 46EB2E000020D0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002100 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Protobuf-Protobuf_Privacy";
-			target = 331902F14E62290AA86FB37CAAC6ABB0 /* Protobuf-Protobuf_Privacy */;
-			targetProxy = 46EB2E000020F0 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002130 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "StackConsentManager-ConsentPrivacyInfo";
-			target = 91D9CBCA9AA32FDF1B5673757F7635DE /* StackConsentManager-ConsentPrivacyInfo */;
-			targetProxy = 46EB2E00002120 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002150 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUserMessagingPlatform;
-			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
-			targetProxy = 46EB2E00002140 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002170 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "StackModules-StackModules";
-			target = E40F8194A93D9DD5F0F1325C957E8BC1 /* StackModules-StackModules */;
-			targetProxy = 46EB2E00002160 /* PBXContainerItemProxy */;
-		};
-		46EB2E00002190 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "StackModules-StackProductPresentation";
-			target = 5D2D0EB1F6AED5A8E858AC7C243A9087 /* StackModules-StackProductPresentation */;
-			targetProxy = 46EB2E00002180 /* PBXContainerItemProxy */;
-		};
-		46EB2E000021B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "StackModules-StackRendering";
-			target = E9DF2FCF0536FE85957E0982A6BD4C77 /* StackModules-StackRendering */;
-			targetProxy = 46EB2E000021A0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E000004D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2402,697 +487,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000008C0 /* Release */ = {
+		46EB2E000000E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000009B0 /* Appodeal.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46EB2E000008D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000009A0 /* Appodeal.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46EB2E00000900 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000009B0 /* Appodeal.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Appodeal";
-				IBSC_MODULE = Appodeal;
-				INFOPLIST_FILE = "Target Support Files/Appodeal/ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = AppodealPrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00000910 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000009A0 /* Appodeal.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Appodeal";
-				IBSC_MODULE = Appodeal;
-				INFOPLIST_FILE = "Target Support Files/Appodeal/ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = AppodealPrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E000009E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000A30 /* AppodealGoogleAdMobAdapter.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46EB2E000009F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000A20 /* AppodealGoogleAdMobAdapter.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46EB2E00000A60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000B50 /* Bidon.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46EB2E00000A70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000B40 /* Bidon.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46EB2E00000AA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000B50 /* Bidon.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Bidon";
-				IBSC_MODULE = Bidon;
-				INFOPLIST_FILE = "Target Support Files/Bidon/ResourceBundle-BidonPrivacyInfo-Bidon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = BidonPrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00000AB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000B40 /* Bidon.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Bidon";
-				IBSC_MODULE = Bidon;
-				INFOPLIST_FILE = "Target Support Files/Bidon/ResourceBundle-BidonPrivacyInfo-Bidon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = BidonPrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00000B80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000D00 /* Google-Mobile-Ads-SDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK.modulemap";
-				PRODUCT_MODULE_NAME = Google_Mobile_Ads_SDK;
-				PRODUCT_NAME = Google_Mobile_Ads_SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		46EB2E00000B90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000CF0 /* Google-Mobile-Ads-SDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK.modulemap";
-				PRODUCT_MODULE_NAME = Google_Mobile_Ads_SDK;
-				PRODUCT_NAME = Google_Mobile_Ads_SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		46EB2E00000C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000D00 /* Google-Mobile-Ads-SDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
-				IBSC_MODULE = Google_Mobile_Ads_SDK;
-				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = GoogleMobileAdsResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00000C50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000CF0 /* Google-Mobile-Ads-SDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
-				IBSC_MODULE = Google_Mobile_Ads_SDK;
-				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = GoogleMobileAdsResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00000DA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000E90 /* GoogleUserMessagingPlatform.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46EB2E00000DB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000E80 /* GoogleUserMessagingPlatform.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46EB2E00000DE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000E90 /* GoogleUserMessagingPlatform.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
-				IBSC_MODULE = GoogleUserMessagingPlatform;
-				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = UserMessagingPlatformResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00000DF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000E80 /* GoogleUserMessagingPlatform.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
-				IBSC_MODULE = GoogleUserMessagingPlatform;
-				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = UserMessagingPlatformResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00000EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000014D0 /* Protobuf.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
-				PRODUCT_MODULE_NAME = Protobuf;
-				PRODUCT_NAME = Protobuf;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		46EB2E00000ED0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000014C0 /* Protobuf.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
-				PRODUCT_MODULE_NAME = Protobuf;
-				PRODUCT_NAME = Protobuf;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		46EB2E00000F60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000014D0 /* Protobuf.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Protobuf";
-				IBSC_MODULE = Protobuf;
-				INFOPLIST_FILE = "Target Support Files/Protobuf/ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = Protobuf_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00000F70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000014C0 /* Protobuf.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Protobuf";
-				IBSC_MODULE = Protobuf;
-				INFOPLIST_FILE = "Target Support Files/Protobuf/ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = Protobuf_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00001570 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001660 /* StackConsentManager.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46EB2E00001580 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001650 /* StackConsentManager.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46EB2E000015B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001660 /* StackConsentManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackConsentManager";
-				IBSC_MODULE = StackConsentManager;
-				INFOPLIST_FILE = "Target Support Files/StackConsentManager/ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = ConsentPrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E000015C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001650 /* StackConsentManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackConsentManager";
-				IBSC_MODULE = StackConsentManager;
-				INFOPLIST_FILE = "Target Support Files/StackConsentManager/ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = ConsentPrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00001690 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018C0 /* StackModules.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46EB2E000016A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018B0 /* StackModules.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46EB2E000016D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018C0 /* StackModules.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
-				IBSC_MODULE = StackModules;
-				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackModules-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = StackModules;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E000016E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018B0 /* StackModules.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
-				IBSC_MODULE = StackModules;
-				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackModules-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = StackModules;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00001780 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018C0 /* StackModules.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
-				IBSC_MODULE = StackModules;
-				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackProductPresentation-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = StackProductPresentation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00001790 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018B0 /* StackModules.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
-				IBSC_MODULE = StackModules;
-				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackProductPresentation-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = StackProductPresentation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E00001820 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018C0 /* StackModules.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
-				IBSC_MODULE = StackModules;
-				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackRendering-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = StackRendering;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		46EB2E00001830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000018B0 /* StackModules.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
-				IBSC_MODULE = StackModules;
-				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackRendering-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = StackRendering;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		46EB2E000018F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001980 /* Pods-AbcGame.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000190 /* Pods-AbcGame.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3130,9 +527,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00001900 /* Debug */ = {
+		46EB2E000000F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001990 /* Pods-AbcGame.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000001A0 /* Pods-AbcGame.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3169,9 +566,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00001A60 /* Release */ = {
+		46EB2E00000250 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001AF0 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000002E0 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3209,9 +606,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00001A70 /* Debug */ = {
+		46EB2E00000260 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001B00 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000002F0 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3248,9 +645,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00001BD0 /* Release */ = {
+		46EB2E000003A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001C60 /* Pods-AbcGameTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000430 /* Pods-AbcGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3288,9 +685,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00001BE0 /* Debug */ = {
+		46EB2E000003B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00001C70 /* Pods-AbcGameTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000440 /* Pods-AbcGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3339,182 +736,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000008B0 /* Build configuration list for PBXAggregateTarget "Appodeal" */ = {
+		46EB2E000000D0 /* Build configuration list for PBXNativeTarget "Pods-AbcGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000008D0 /* Debug */,
-				46EB2E000008C0 /* Release */,
+				46EB2E000000F0 /* Debug */,
+				46EB2E000000E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000008F0 /* Build configuration list for PBXNativeTarget "Appodeal-AppodealPrivacyInfo" */ = {
+		46EB2E00000240 /* Build configuration list for PBXNativeTarget "Pods-AbcGame-AbcGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000910 /* Debug */,
-				46EB2E00000900 /* Release */,
+				46EB2E00000260 /* Debug */,
+				46EB2E00000250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000009D0 /* Build configuration list for PBXAggregateTarget "AppodealGoogleAdMobAdapter" */ = {
+		46EB2E00000390 /* Build configuration list for PBXNativeTarget "Pods-AbcGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000009F0 /* Debug */,
-				46EB2E000009E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000A50 /* Build configuration list for PBXAggregateTarget "Bidon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000A70 /* Debug */,
-				46EB2E00000A60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000A90 /* Build configuration list for PBXNativeTarget "Bidon-BidonPrivacyInfo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000AB0 /* Debug */,
-				46EB2E00000AA0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000B70 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000B90 /* Debug */,
-				46EB2E00000B80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000C30 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000C50 /* Debug */,
-				46EB2E00000C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000D90 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000DB0 /* Debug */,
-				46EB2E00000DA0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000DD0 /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000DF0 /* Debug */,
-				46EB2E00000DE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000EB0 /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000ED0 /* Debug */,
-				46EB2E00000EC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00000F50 /* Build configuration list for PBXNativeTarget "Protobuf-Protobuf_Privacy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00000F70 /* Debug */,
-				46EB2E00000F60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00001560 /* Build configuration list for PBXAggregateTarget "StackConsentManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00001580 /* Debug */,
-				46EB2E00001570 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E000015A0 /* Build configuration list for PBXNativeTarget "StackConsentManager-ConsentPrivacyInfo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E000015C0 /* Debug */,
-				46EB2E000015B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00001680 /* Build configuration list for PBXAggregateTarget "StackModules" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E000016A0 /* Debug */,
-				46EB2E00001690 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E000016C0 /* Build configuration list for PBXNativeTarget "StackModules-StackModules" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E000016E0 /* Debug */,
-				46EB2E000016D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00001770 /* Build configuration list for PBXNativeTarget "StackModules-StackProductPresentation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00001790 /* Debug */,
-				46EB2E00001780 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00001810 /* Build configuration list for PBXNativeTarget "StackModules-StackRendering" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00001830 /* Debug */,
-				46EB2E00001820 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E000018E0 /* Build configuration list for PBXNativeTarget "Pods-AbcGame" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00001900 /* Debug */,
-				46EB2E000018F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00001A50 /* Build configuration list for PBXNativeTarget "Pods-AbcGame-AbcGameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00001A70 /* Debug */,
-				46EB2E00001A60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EB2E00001BC0 /* Build configuration list for PBXNativeTarget "Pods-AbcGameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EB2E00001BE0 /* Debug */,
-				46EB2E00001BD0 /* Release */,
+				46EB2E000003B0 /* Debug */,
+				46EB2E000003A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
