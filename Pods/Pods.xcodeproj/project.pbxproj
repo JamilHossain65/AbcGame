@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -20,6 +20,7 @@
 				46EB2E00001A90 /* PBXTargetDependency */,
 			);
 			name = Appodeal;
+			productName = Appodeal;
 		};
 		0AFD652CA2DA4EFFDE28DEBAE30FE34C /* StackConsentManager */ = {
 			isa = PBXAggregateTarget;
@@ -32,6 +33,7 @@
 				46EB2E00001B00 /* PBXTargetDependency */,
 			);
 			name = StackConsentManager;
+			productName = StackConsentManager;
 		};
 		458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */ = {
 			isa = PBXAggregateTarget;
@@ -43,6 +45,7 @@
 				46EB2E00001AB0 /* PBXTargetDependency */,
 			);
 			name = GoogleUserMessagingPlatform;
+			productName = GoogleUserMessagingPlatform;
 		};
 		D905649A37FE7E236C51D78FFBBA798F /* StackModules */ = {
 			isa = PBXAggregateTarget;
@@ -56,6 +59,7 @@
 				46EB2E00001B80 /* PBXTargetDependency */,
 			);
 			name = StackModules;
+			productName = StackModules;
 		};
 /* End PBXAggregateTarget section */
 
@@ -156,7 +160,7 @@
 		46EB2E000017C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AA0 /* Foundation.framework */; };
 		46EB2E00001830 /* Pods-AbcGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001820 /* Pods-AbcGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46EB2E00001870 /* Pods-AbcGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001860 /* Pods-AbcGameTests-dummy.m */; };
-		46EB2E00001AE0 /* Protobuf-Protobuf_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */; };
+		46EB2E00001AE0 /* Protobuf_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf_Privacy.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -317,10 +321,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A7576CF77CC39A3AE925FD8C62A83EB /* Pods-AbcGameTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbcGameTests"; path = Pods_AbcGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F14CF59C83FFAF21D1D395C7E6D1435 /* StackModules-StackRendering */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackModules-StackRendering"; path = StackRendering.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4112269B36F33C98D09AF1B79A7E98E2 /* StackConsentManager-ConsentPrivacyInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackConsentManager-ConsentPrivacyInfo"; path = ConsentPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000100 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A7576CF77CC39A3AE925FD8C62A83EB /* Pods_AbcGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F14CF59C83FFAF21D1D395C7E6D1435 /* StackRendering.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackRendering.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4112269B36F33C98D09AF1B79A7E98E2 /* ConsentPrivacyInfo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsentPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000100 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000110 /* GPBAny.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBAny.pbobjc.h; path = objectivec/GPBAny.pbobjc.h; sourceTree = "<group>"; };
 		46EB2E00000120 /* GPBAny.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBAny.pbobjc.m; path = objectivec/GPBAny.pbobjc.m; sourceTree = "<group>"; };
 		46EB2E00000130 /* GPBApi.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBApi.pbobjc.h; path = objectivec/GPBApi.pbobjc.h; sourceTree = "<group>"; };
@@ -398,20 +402,20 @@
 		46EB2E000005B0 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
 		46EB2E000005C0 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
 		46EB2E000005D0 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wrappers.pbobjc.h; path = objectivec/google/protobuf/Wrappers.pbobjc.h; sourceTree = "<group>"; };
-		46EB2E000005F0 /* Appodeal.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Appodeal.xcframework; path = "Appodeal-4.3.0/Appodeal.xcframework"; sourceTree = "<group>"; };
-		46EB2E00000600 /* AppodealMediationCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppodealMediationCore.xcframework; path = "Appodeal-4.3.0/AppodealMediationCore.xcframework"; sourceTree = "<group>"; };
-		46EB2E00000620 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
-		46EB2E00000640 /* StackConsentManager.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = StackConsentManager.xcframework; sourceTree = "<group>"; };
-		46EB2E00000670 /* StackModules.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = StackModules.xcframework; path = release/Static/StackModules.xcframework; sourceTree = "<group>"; };
-		46EB2E000006A0 /* StackProductPresentation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = StackProductPresentation.xcframework; path = release/Static/StackProductPresentation.xcframework; sourceTree = "<group>"; };
-		46EB2E000006D0 /* StackRendering.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = StackRendering.xcframework; path = release/Static/StackRendering.xcframework; sourceTree = "<group>"; };
-		46EB2E000006F0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Appodeal-4.3.0/Appodeal.xcframework/ios-arm64/Appodeal.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000710 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000730 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		46EB2E00000750 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "StackConsentManager.xcframework/ios-arm64/StackConsentManager.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000770 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "release/Static/StackModules.xcframework/ios-arm64/StackModules.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E00000790 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "release/Static/StackProductPresentation.xcframework/ios-arm64/StackProductPresentation.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		46EB2E000007B0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "release/Static/StackRendering.xcframework/ios-arm64/StackRendering.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		46EB2E000005F0 /* Appodeal.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = Appodeal.xcframework; path = "Appodeal-4.3.0/Appodeal.xcframework"; sourceTree = "<group>"; };
+		46EB2E00000600 /* AppodealMediationCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppodealMediationCore.xcframework; path = "Appodeal-4.3.0/AppodealMediationCore.xcframework"; sourceTree = "<group>"; };
+		46EB2E00000620 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		46EB2E00000640 /* StackConsentManager.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = StackConsentManager.xcframework; sourceTree = "<group>"; };
+		46EB2E00000670 /* StackModules.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = StackModules.xcframework; path = release/Static/StackModules.xcframework; sourceTree = "<group>"; };
+		46EB2E000006A0 /* StackProductPresentation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = StackProductPresentation.xcframework; path = release/Static/StackProductPresentation.xcframework; sourceTree = "<group>"; };
+		46EB2E000006D0 /* StackRendering.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = StackRendering.xcframework; path = release/Static/StackRendering.xcframework; sourceTree = "<group>"; };
+		46EB2E000006F0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Appodeal-4.3.0/Appodeal.xcframework/ios-arm64/Appodeal.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		46EB2E00000710 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		46EB2E00000730 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		46EB2E00000750 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "StackConsentManager.xcframework/ios-arm64/StackConsentManager.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		46EB2E00000770 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "release/Static/StackModules.xcframework/ios-arm64/StackModules.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		46EB2E00000790 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "release/Static/StackProductPresentation.xcframework/ios-arm64/StackProductPresentation.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		46EB2E000007B0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "release/Static/StackRendering.xcframework/ios-arm64/StackRendering.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		46EB2E000008A0 /* ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist"; sourceTree = "<group>"; };
 		46EB2E000008B0 /* Appodeal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Appodeal-xcframeworks.sh"; sourceTree = "<group>"; };
 		46EB2E000008C0 /* Appodeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appodeal.debug.xcconfig; sourceTree = "<group>"; };
@@ -467,14 +471,14 @@
 		46EB2E00001840 /* Pods-AbcGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbcGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E00001850 /* Pods-AbcGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbcGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E00001860 /* Pods-AbcGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbcGameTests-dummy.m"; sourceTree = "<group>"; };
-		5AFD5ABB7BD7BDF76253C611B7FAB0BB /* Appodeal-AppodealPrivacyInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Appodeal-AppodealPrivacyInfo"; path = AppodealPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		82A5BD968101C7B8B95B7212142C96E0 /* StackModules-StackModules */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackModules-StackModules"; path = StackModules.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources"; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF2EC5ACB37A0D413193096CA44E859 /* Pods-AbcGame-AbcGameUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbcGame-AbcGameUITests"; path = Pods_AbcGame_AbcGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2105C94812B6214B154F54DCEDB72AC /* Protobuf */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Protobuf; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F177E7716A29CA56BB659ACBA99ACE09 /* Pods-AbcGame */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbcGame"; path = Pods_AbcGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6EC733B74675E4F9AAE95810E064F6B /* StackModules-StackProductPresentation */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "StackModules-StackProductPresentation"; path = StackProductPresentation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Protobuf-Protobuf_Privacy"; path = Protobuf_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFD5ABB7BD7BDF76253C611B7FAB0BB /* AppodealPrivacyInfo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppodealPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A5BD968101C7B8B95B7212142C96E0 /* StackModules.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackModules.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A377C18F92A8A511869ADA54B5652D2 /* UserMessagingPlatformResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF2EC5ACB37A0D413193096CA44E859 /* Pods_AbcGame_AbcGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGame_AbcGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2105C94812B6214B154F54DCEDB72AC /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F177E7716A29CA56BB659ACBA99ACE09 /* Pods_AbcGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EC733B74675E4F9AAE95810E064F6B /* StackProductPresentation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackProductPresentation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Protobuf_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -576,17 +580,17 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AFD5ABB7BD7BDF76253C611B7FAB0BB /* Appodeal-AppodealPrivacyInfo */,
-				8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
-				F177E7716A29CA56BB659ACBA99ACE09 /* Pods-AbcGame */,
-				AAF2EC5ACB37A0D413193096CA44E859 /* Pods-AbcGame-AbcGameUITests */,
-				2A7576CF77CC39A3AE925FD8C62A83EB /* Pods-AbcGameTests */,
-				C2105C94812B6214B154F54DCEDB72AC /* Protobuf */,
-				F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */,
-				4112269B36F33C98D09AF1B79A7E98E2 /* StackConsentManager-ConsentPrivacyInfo */,
-				82A5BD968101C7B8B95B7212142C96E0 /* StackModules-StackModules */,
-				F6EC733B74675E4F9AAE95810E064F6B /* StackModules-StackProductPresentation */,
-				2F14CF59C83FFAF21D1D395C7E6D1435 /* StackModules-StackRendering */,
+				5AFD5ABB7BD7BDF76253C611B7FAB0BB /* AppodealPrivacyInfo.bundle */,
+				8A377C18F92A8A511869ADA54B5652D2 /* UserMessagingPlatformResources.bundle */,
+				F177E7716A29CA56BB659ACBA99ACE09 /* Pods_AbcGame.framework */,
+				AAF2EC5ACB37A0D413193096CA44E859 /* Pods_AbcGame_AbcGameUITests.framework */,
+				2A7576CF77CC39A3AE925FD8C62A83EB /* Pods_AbcGameTests.framework */,
+				C2105C94812B6214B154F54DCEDB72AC /* Protobuf.framework */,
+				F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf_Privacy.bundle */,
+				4112269B36F33C98D09AF1B79A7E98E2 /* ConsentPrivacyInfo.bundle */,
+				82A5BD968101C7B8B95B7212142C96E0 /* StackModules.bundle */,
+				F6EC733B74675E4F9AAE95810E064F6B /* StackProductPresentation.bundle */,
+				2F14CF59C83FFAF21D1D395C7E6D1435 /* StackRendering.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -628,7 +632,6 @@
 				46EB2E000006E0 /* Resources */,
 				46EB2E00000890 /* Support Files */,
 			);
-			name = Appodeal;
 			path = Appodeal;
 			sourceTree = "<group>";
 		};
@@ -639,7 +642,6 @@
 				46EB2E00000700 /* Resources */,
 				46EB2E000009B0 /* Support Files */,
 			);
-			name = GoogleUserMessagingPlatform;
 			path = GoogleUserMessagingPlatform;
 			sourceTree = "<group>";
 		};
@@ -726,7 +728,6 @@
 				46EB2E00000720 /* Resources */,
 				46EB2E00000B50 /* Support Files */,
 			);
-			name = Protobuf;
 			path = Protobuf;
 			sourceTree = "<group>";
 		};
@@ -737,7 +738,6 @@
 				46EB2E00000740 /* Resources */,
 				46EB2E000011A0 /* Support Files */,
 			);
-			name = StackConsentManager;
 			path = StackConsentManager;
 			sourceTree = "<group>";
 		};
@@ -749,7 +749,6 @@
 				46EB2E000006B0 /* Rendering-Static */,
 				46EB2E000012C0 /* Support Files */,
 			);
-			name = StackModules;
 			path = StackModules;
 			sourceTree = "<group>";
 		};
@@ -1113,7 +1112,7 @@
 			);
 			name = "Protobuf-Protobuf_Privacy";
 			productName = Protobuf_Privacy;
-			productReference = F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf-Protobuf_Privacy */;
+			productReference = F777222FFBEEB0CE4650EE8A00938A60 /* Protobuf_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		395612856A82F9103EC398EC258A9E63 /* Pods-AbcGameTests */ = {
@@ -1132,7 +1131,7 @@
 			);
 			name = "Pods-AbcGameTests";
 			productName = Pods_AbcGameTests;
-			productReference = 2A7576CF77CC39A3AE925FD8C62A83EB /* Pods-AbcGameTests */;
+			productReference = 2A7576CF77CC39A3AE925FD8C62A83EB /* Pods_AbcGameTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		470FE31978DC918618A329D8B55C85FF /* Protobuf */ = {
@@ -1151,7 +1150,7 @@
 			);
 			name = Protobuf;
 			productName = Protobuf;
-			productReference = C2105C94812B6214B154F54DCEDB72AC /* Protobuf */;
+			productReference = C2105C94812B6214B154F54DCEDB72AC /* Protobuf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4BD42CF3262BB684623C2F354684EE8A /* Pods-AbcGame */ = {
@@ -1174,7 +1173,7 @@
 			);
 			name = "Pods-AbcGame";
 			productName = Pods_AbcGame;
-			productReference = F177E7716A29CA56BB659ACBA99ACE09 /* Pods-AbcGame */;
+			productReference = F177E7716A29CA56BB659ACBA99ACE09 /* Pods_AbcGame.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D2D0EB1F6AED5A8E858AC7C243A9087 /* StackModules-StackProductPresentation */ = {
@@ -1191,7 +1190,7 @@
 			);
 			name = "StackModules-StackProductPresentation";
 			productName = StackProductPresentation;
-			productReference = F6EC733B74675E4F9AAE95810E064F6B /* StackModules-StackProductPresentation */;
+			productReference = F6EC733B74675E4F9AAE95810E064F6B /* StackProductPresentation.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {
@@ -1208,7 +1207,7 @@
 			);
 			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
 			productName = UserMessagingPlatformResources;
-			productReference = 8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
+			productReference = 8A377C18F92A8A511869ADA54B5652D2 /* UserMessagingPlatformResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		6C60A15D94751CC0C485F4424EF834D5 /* Appodeal-AppodealPrivacyInfo */ = {
@@ -1225,7 +1224,7 @@
 			);
 			name = "Appodeal-AppodealPrivacyInfo";
 			productName = AppodealPrivacyInfo;
-			productReference = 5AFD5ABB7BD7BDF76253C611B7FAB0BB /* Appodeal-AppodealPrivacyInfo */;
+			productReference = 5AFD5ABB7BD7BDF76253C611B7FAB0BB /* AppodealPrivacyInfo.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		91D9CBCA9AA32FDF1B5673757F7635DE /* StackConsentManager-ConsentPrivacyInfo */ = {
@@ -1242,7 +1241,7 @@
 			);
 			name = "StackConsentManager-ConsentPrivacyInfo";
 			productName = ConsentPrivacyInfo;
-			productReference = 4112269B36F33C98D09AF1B79A7E98E2 /* StackConsentManager-ConsentPrivacyInfo */;
+			productReference = 4112269B36F33C98D09AF1B79A7E98E2 /* ConsentPrivacyInfo.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E40F8194A93D9DD5F0F1325C957E8BC1 /* StackModules-StackModules */ = {
@@ -1259,7 +1258,7 @@
 			);
 			name = "StackModules-StackModules";
 			productName = StackModules;
-			productReference = 82A5BD968101C7B8B95B7212142C96E0 /* StackModules-StackModules */;
+			productReference = 82A5BD968101C7B8B95B7212142C96E0 /* StackModules.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E9DF2FCF0536FE85957E0982A6BD4C77 /* StackModules-StackRendering */ = {
@@ -1276,7 +1275,7 @@
 			);
 			name = "StackModules-StackRendering";
 			productName = StackRendering;
-			productReference = 2F14CF59C83FFAF21D1D395C7E6D1435 /* StackModules-StackRendering */;
+			productReference = 2F14CF59C83FFAF21D1D395C7E6D1435 /* StackRendering.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		EC957AE454E89EE3B22CA354D70BCD7F /* Pods-AbcGame-AbcGameUITests */ = {
@@ -1299,7 +1298,7 @@
 			);
 			name = "Pods-AbcGame-AbcGameUITests";
 			productName = Pods_AbcGame_AbcGameUITests;
-			productReference = AAF2EC5ACB37A0D413193096CA44E859 /* Pods-AbcGame-AbcGameUITests */;
+			productReference = AAF2EC5ACB37A0D413193096CA44E859 /* Pods_AbcGame_AbcGameUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1320,8 +1319,6 @@
 				en,
 			);
 			mainGroup = 46EB2E00000010;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 46EB2E00000020 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1366,7 +1363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00001AE0 /* Protobuf-Protobuf_Privacy in Resources */,
+				46EB2E00001AE0 /* Protobuf_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,9 +1439,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Appodeal/Appodeal-xcframeworks-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Appodeal/Appodeal-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1459,9 +1460,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1476,9 +1481,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/StackConsentManager/StackConsentManager-xcframeworks-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/StackConsentManager/StackConsentManager-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1493,9 +1502,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/StackModules/StackModules-xcframeworks-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/StackModules/StackModules-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1924,7 +1937,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Appodeal";
 				IBSC_MODULE = Appodeal;
 				INFOPLIST_FILE = "Target Support Files/Appodeal/ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = AppodealPrivacyInfo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1941,7 +1954,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Appodeal";
 				IBSC_MODULE = Appodeal;
 				INFOPLIST_FILE = "Target Support Files/Appodeal/ResourceBundle-AppodealPrivacyInfo-Appodeal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = AppodealPrivacyInfo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1995,7 +2008,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
 				IBSC_MODULE = GoogleUserMessagingPlatform;
 				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = UserMessagingPlatformResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2012,7 +2025,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
 				IBSC_MODULE = GoogleUserMessagingPlatform;
 				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = UserMessagingPlatformResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2108,7 +2121,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Protobuf";
 				IBSC_MODULE = Protobuf;
 				INFOPLIST_FILE = "Target Support Files/Protobuf/ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Protobuf_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2125,7 +2138,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Protobuf";
 				IBSC_MODULE = Protobuf;
 				INFOPLIST_FILE = "Target Support Files/Protobuf/ResourceBundle-Protobuf_Privacy-Protobuf-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Protobuf_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2179,7 +2192,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackConsentManager";
 				IBSC_MODULE = StackConsentManager;
 				INFOPLIST_FILE = "Target Support Files/StackConsentManager/ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = ConsentPrivacyInfo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2196,7 +2209,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackConsentManager";
 				IBSC_MODULE = StackConsentManager;
 				INFOPLIST_FILE = "Target Support Files/StackConsentManager/ResourceBundle-ConsentPrivacyInfo-StackConsentManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = ConsentPrivacyInfo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2250,7 +2263,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
 				IBSC_MODULE = StackModules;
 				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackModules-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = StackModules;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2267,7 +2280,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
 				IBSC_MODULE = StackModules;
 				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackModules-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = StackModules;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2284,7 +2297,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
 				IBSC_MODULE = StackModules;
 				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackProductPresentation-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = StackProductPresentation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2301,7 +2314,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
 				IBSC_MODULE = StackModules;
 				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackProductPresentation-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = StackProductPresentation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2318,7 +2331,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
 				IBSC_MODULE = StackModules;
 				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackRendering-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = StackRendering;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2335,7 +2348,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/StackModules";
 				IBSC_MODULE = StackModules;
 				INFOPLIST_FILE = "Target Support Files/StackModules/ResourceBundle-StackRendering-StackModules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = StackRendering;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
