@@ -11,6 +11,7 @@
 		718028D2CE06197A81878940 /* Pods_AbcGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7499979C295045E4C4D5D0EC /* Pods_AbcGameTests.framework */; };
 		88D986D56E58153CBCEF44CE /* Pods_AbcGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E346A231A7258EDB439756 /* Pods_AbcGame.framework */; };
 		8D4DDF0E302F9B0600A30A22 /* Pods in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4DDF0D302F9B0600A30A22 /* Pods */; };
+		8D5576DC30318E5900226D7A /* StartCloudBuild.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D5576DB30318E5900226D7A /* StartCloudBuild.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8D4DDF13302FA1CD00A30A22 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8D4DDF15302FA1D800A30A22 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		8D4DDF17302FA1E500A30A22 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		8D5576DB30318E5900226D7A /* StartCloudBuild.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = StartCloudBuild.txt; sourceTree = "<group>"; };
 		8DEB03A9302F6AE200FECF12 /* AbcGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbcGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEB03BF302F6AE900FECF12 /* AbcGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbcGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEB03C9302F6AE900FECF12 /* AbcGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbcGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 		8DEB03A0302F6AE200FECF12 = {
 			isa = PBXGroup;
 			children = (
+				8D5576DB30318E5900226D7A /* StartCloudBuild.txt */,
 				8DEB03AB302F6AE200FECF12 /* AbcGame */,
 				8DEB03C2302F6AE900FECF12 /* AbcGameTests */,
 				8DEB03CC302F6AE900FECF12 /* AbcGameUITests */,
@@ -299,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5576DC30318E5900226D7A /* StartCloudBuild.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
