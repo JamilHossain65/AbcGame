@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/Appodeal/AppodealPrivacyInfo.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/StackConsentManager/ConsentPrivacyInfo.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/StackModules/StackModules.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/StackModules/StackProductPresentation.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/StackModules/StackRendering.bundle

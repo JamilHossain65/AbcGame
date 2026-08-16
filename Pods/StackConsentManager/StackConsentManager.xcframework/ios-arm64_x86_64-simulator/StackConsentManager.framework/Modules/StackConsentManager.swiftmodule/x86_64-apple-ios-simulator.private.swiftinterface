@@ -1,0 +1,140 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name StackConsentManager
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import OSLog
+import Swift
+import UIKit
+import UserMessagingPlatform
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc(APDConsentDialog) final public class ConsentDialog : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func present(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
+  #endif
+  @objc deinit
+}
+@available(iOS 13, *)
+extension StackConsentManager.ConsentDialog {
+  @_Concurrency.MainActor final public func present(rootViewController: UIKit.UIViewController) async throws
+}
+@objc(APDPrivacyOptionsStatus) public enum PrivacyOptionsStatus : Swift.UInt {
+  case required
+  case notRequired
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.UInt)
+  #endif
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@objc(APDAuthorizationStatus) public enum AuthorizationStatus : Swift.UInt {
+  case notDetermined
+  case restricted
+  case denied
+  case authorized
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.UInt)
+  #endif
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@objc(APDConsentStatus) public enum ConsentStatus : Swift.UInt {
+  case unknown
+  case required
+  case notRequired
+  case obtained
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.UInt)
+  #endif
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+public enum ConsentManagerError : Swift.Error {
+  case requestTimeout
+  case requestError(Swift.String)
+  case serverError
+  case cache
+  case notRequested
+  case alreadyPresented
+  case presentationNotRequired
+  case dialogNotLoaded
+  case internalError(Swift.String)
+  case invalidForm
+  case generic(any Swift.Error)
+  case formException(Swift.String)
+}
+extension StackConsentManager.ConsentManagerError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+@objc(APDConsentUrlProvider) public protocol ConsentUrlProvider : ObjectiveC.NSObjectProtocol {
+  @objc var isAllHostsUnreached: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc func endpoint(_ path: Swift.String?) -> Foundation.URL
+  #endif
+  @objc func isTrustedURL(_ url: Foundation.URL) -> Swift.Bool
+  @objc func blockEndpoint()
+  @objc func update()
+  @objc func reset()
+}
+@_hasMissingDesignatedInitializers @objc(APDConsentManager) final public class ConsentManager : ObjectiveC.NSObject {
+  @objc public static let shared: StackConsentManager.ConsentManager
+  @objc dynamic final public var status: StackConsentManager.ConsentStatus {
+    get
+  }
+  @objc dynamic final public var privacyOptionsRequirementStatus: StackConsentManager.PrivacyOptionsStatus {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters, completion: @escaping (Foundation.NSError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters, urlProvider: any StackConsentManager.ConsentUrlProvider, completion: @escaping (Foundation.NSError?) -> ())
+  #endif
+  @objc final public func revoke()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func loadAndPresentIfNeeded(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func load(completion: @escaping (StackConsentManager.ConsentDialog?, Foundation.NSError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func showPrivacyOptionsForm(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
+  #endif
+  @objc deinit
+}
+@available(iOS 13, *)
+extension StackConsentManager.ConsentManager {
+  final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters) async throws
+  final public func loadAndPresentIfNeeded(rootViewController: UIKit.UIViewController) async throws
+  final public func showPrivacyOptionsForm(rootViewController: UIKit.UIViewController) async throws
+  final public func load() async throws -> StackConsentManager.ConsentDialog
+}
+@objc(APDConsentUpdateRequestParameters) final public class ConsentUpdateRequestParameters : ObjectiveC.NSObject {
+  @objc public init(appKey: Swift.String, mediationSdkName: Swift.String, mediationSdkVersion: Swift.String, COPPA: Swift.Bool)
+  @objc deinit
+}
+extension StackConsentManager.PrivacyOptionsStatus : Swift.Equatable {}
+extension StackConsentManager.PrivacyOptionsStatus : Swift.Hashable {}
+extension StackConsentManager.PrivacyOptionsStatus : Swift.RawRepresentable {}
+extension StackConsentManager.AuthorizationStatus : Swift.Equatable {}
+extension StackConsentManager.AuthorizationStatus : Swift.Hashable {}
+extension StackConsentManager.AuthorizationStatus : Swift.RawRepresentable {}
+extension StackConsentManager.ConsentStatus : Swift.Equatable {}
+extension StackConsentManager.ConsentStatus : Swift.Hashable {}
+extension StackConsentManager.ConsentStatus : Swift.RawRepresentable {}
