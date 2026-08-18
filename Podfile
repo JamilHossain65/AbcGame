@@ -114,6 +114,13 @@ target 'AbcGame' do
 
   # Pods for AbcGame
   appodeal
+    pod 'Alamofire', '~> 4.5'
+    pod 'AlamofireImage'
+    pod 'Alamofire-SwiftyJSON'
+    pod 'MBProgressHUD'
+    pod 'CryptoSwift'
+    pod 'DropDown'
+    pod 'SnapKit'
   
   target 'AbcGameTests' do
     inherit! :search_paths

@@ -1,44 +1,46 @@
 PODS:
-  - Appodeal (4.3.0):
-    - Protobuf (= 3.29.3)
-    - StackConsentManager (= 4.1.0)
-    - StackModules (= 3.5.2)
-  - GoogleUserMessagingPlatform (3.1.0)
-  - Protobuf (3.29.3)
-  - StackConsentManager (4.1.0):
-    - GoogleUserMessagingPlatform (~> 3.1)
-  - StackModules (3.5.2):
-    - StackModules/Static (= 3.5.2)
-  - StackModules/Core-Static (3.5.2)
-  - StackModules/ProductPresentation-Static (3.5.2):
-    - StackModules/Core-Static
-  - StackModules/Rendering-Static (3.5.2):
-    - StackModules/Core-Static
-    - StackModules/ProductPresentation-Static
-  - StackModules/Static (3.5.2):
-    - StackModules/Core-Static
-    - StackModules/ProductPresentation-Static
-    - StackModules/Rendering-Static
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - CryptoSwift (1.10.0)
+  - DropDown (2.3.13)
+  - MBProgressHUD (1.2.0)
+  - SnapKit (5.7.1)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
-  - Appodeal (= 4.3.0)
+  - Alamofire (~> 4.5)
+  - Alamofire-SwiftyJSON
+  - AlamofireImage
+  - CryptoSwift
+  - DropDown
+  - MBProgressHUD
+  - SnapKit
 
 SPEC REPOS:
-  https://github.com/appodeal/CocoaPods.git:
-    - Appodeal
-    - StackConsentManager
   trunk:
-    - GoogleUserMessagingPlatform
-    - Protobuf
-    - StackModules
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - AlamofireImage
+    - CryptoSwift
+    - DropDown
+    - MBProgressHUD
+    - SnapKit
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Appodeal: 462c385787965f95428fe876d9a38e440923dcde
-  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  Protobuf: e2de96d939c642ce8da186343ff8929b35223212
-  StackConsentManager: 6b884ea33ff3858eafd1b949851b4f56c84ca1ad
-  StackModules: af0e76eb5e6ef5d5a9f5963efc899359157a0a98
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  CryptoSwift: e2e7776512f250e66205955da748e7a4e4abffe0
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: dcae70c1579da313b4fd7f12f4762a8b8557b557
+PODFILE CHECKSUM: c3719e2a3d5b5df6a51f7cf9914fd69525fff2aa
 
 COCOAPODS: 1.16.2
