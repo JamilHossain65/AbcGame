@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     }
 }
 
-/*
+
 extension ViewController: AppodealInterstitialDelegate {
 
     // Method called if interstitial mediation failed
@@ -67,7 +67,7 @@ extension ViewController: AppodealInterstitialDelegate {
     
     
 }
-*/
+
 
 
 extension ViewController: FullScreenContentDelegate {
