@@ -6,12 +6,9 @@ source 'https://github.com/appodeal/CocoaPods.git'
 source 'https://cdn.cocoapods.org'
 
 post_install do |installer|
-  xcframework_path = "#{installer.sandbox.root}/smaato-ios-sdk/vendor"
-
-  Dir.glob("#{xcframework_path}/**/*.framework/OMSDK_Smaato").each do |binary|
-    if File.exist?(binary)
-      puts "Stripping bitcode from: #{binary}"
-      system("xcrun bitcode_strip #{binary} -r -o #{binary}")
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
     end
   end
 end
