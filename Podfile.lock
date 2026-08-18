@@ -1,3 +1,44 @@
-PODFILE CHECKSUM: b2f0ec0fc60093589e02cfe1a4c32158d4f8dcc7
+PODS:
+  - Appodeal (4.3.0):
+    - Protobuf (= 3.29.3)
+    - StackConsentManager (= 4.1.0)
+    - StackModules (= 3.5.2)
+  - GoogleUserMessagingPlatform (3.1.0)
+  - Protobuf (3.29.3)
+  - StackConsentManager (4.1.0):
+    - GoogleUserMessagingPlatform (~> 3.1)
+  - StackModules (3.5.2):
+    - StackModules/Static (= 3.5.2)
+  - StackModules/Core-Static (3.5.2)
+  - StackModules/ProductPresentation-Static (3.5.2):
+    - StackModules/Core-Static
+  - StackModules/Rendering-Static (3.5.2):
+    - StackModules/Core-Static
+    - StackModules/ProductPresentation-Static
+  - StackModules/Static (3.5.2):
+    - StackModules/Core-Static
+    - StackModules/ProductPresentation-Static
+    - StackModules/Rendering-Static
+
+DEPENDENCIES:
+  - Appodeal (= 4.3.0)
+
+SPEC REPOS:
+  https://github.com/appodeal/CocoaPods.git:
+    - Appodeal
+    - StackConsentManager
+  trunk:
+    - GoogleUserMessagingPlatform
+    - Protobuf
+    - StackModules
+
+SPEC CHECKSUMS:
+  Appodeal: 462c385787965f95428fe876d9a38e440923dcde
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  Protobuf: e2de96d939c642ce8da186343ff8929b35223212
+  StackConsentManager: 6b884ea33ff3858eafd1b949851b4f56c84ca1ad
+  StackModules: af0e76eb5e6ef5d5a9f5963efc899359157a0a98
+
+PODFILE CHECKSUM: 31d6c9346d73ef52ed9639e20febc716ef58e2dc
 
 COCOAPODS: 1.16.2

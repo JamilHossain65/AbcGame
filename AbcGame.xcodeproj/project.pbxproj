@@ -164,6 +164,8 @@
 				8DEB03A5302F6AE200FECF12 /* Sources */,
 				8DEB03A6302F6AE200FECF12 /* Frameworks */,
 				8DEB03A7302F6AE200FECF12 /* Resources */,
+				CD8D8DD145B2384399BE55F1 /* [CP] Embed Pods Frameworks */,
+				487FDA7F10D70719D65CD71B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +209,8 @@
 				8DEB03C5302F6AE900FECF12 /* Sources */,
 				8DEB03C6302F6AE900FECF12 /* Frameworks */,
 				8DEB03C7302F6AE900FECF12 /* Resources */,
+				AE704256813AA4DB7878EF4D /* [CP] Embed Pods Frameworks */,
+				CB99C1FFA7E36F29CAA47C42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +294,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		487FDA7F10D70719D65CD71B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5291F4FA1F47E3BEDC4925BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +375,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE704256813AA4DB7878EF4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB99C1FFA7E36F29CAA47C42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8D8DD145B2384399BE55F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
