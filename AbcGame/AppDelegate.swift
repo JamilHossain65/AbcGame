@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        Appodeal.setAutocache(false, types: .interstitial)
+        Appodeal.setLogLevel(.verbose)
         Appodeal.initialize(withApiKey: "57f00653f58feba4e79ff23f293413b0ba075d12f28799d6",types: .interstitial)
         
         return true
