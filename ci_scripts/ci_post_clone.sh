@@ -2,6 +2,7 @@
 
 # Navigate to the repository root directory
 #cd ..
+
 # Install CocoaPods dependencies using Homebrew
 brew install cocoapods
 
