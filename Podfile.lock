@@ -1,20 +1,19 @@
 PODS:
-  - Alamofire (4.9.1)
-  - Alamofire-SwiftyJSON (3.0.0):
-    - Alamofire (~> 4.5)
-    - SwiftyJSON (~> 4.0.0)
-  - AlamofireImage (3.6.0):
-    - Alamofire (~> 4.9)
+  - AppLovinSDK (13.6.2)
   - Appodeal (4.3.0):
     - Protobuf (= 3.29.3)
     - StackConsentManager (= 4.1.0)
     - StackModules (= 3.5.2)
-  - CryptoSwift (1.10.0)
-  - DropDown (2.3.13)
+  - AppodealAppLovinAdapter (13.6.2.0):
+    - AppLovinSDK (= 13.6.2)
+    - Appodeal (< 5.0.0, >= 4.0.0)
+  - AppodealAppLovinMAXAdapter (13.6.2.0):
+    - AppLovinSDK (= 13.6.2)
+    - Appodeal (< 5.0.0, >= 4.0.0)
+  - Google-Mobile-Ads-SDK (13.7.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.1.0)
-  - MBProgressHUD (1.2.0)
   - Protobuf (3.29.3)
-  - SnapKit (5.7.1)
   - StackConsentManager (4.1.0):
     - GoogleUserMessagingPlatform (~> 3.1)
   - StackModules (3.5.2):
@@ -29,50 +28,37 @@ PODS:
     - StackModules/Core-Static
     - StackModules/ProductPresentation-Static
     - StackModules/Rendering-Static
-  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5)
-  - Alamofire-SwiftyJSON
-  - AlamofireImage
   - Appodeal (= 4.3.0)
-  - CryptoSwift
-  - DropDown
-  - MBProgressHUD
-  - SnapKit
+  - AppodealAppLovinAdapter (= 13.6.2.0)
+  - AppodealAppLovinMAXAdapter (= 13.6.2.0)
+  - Google-Mobile-Ads-SDK
 
 SPEC REPOS:
   https://github.com/appodeal/CocoaPods.git:
-    - Appodeal
+    - AppodealAppLovinAdapter
+    - AppodealAppLovinMAXAdapter
     - StackConsentManager
   trunk:
-    - Alamofire
-    - Alamofire-SwiftyJSON
-    - AlamofireImage
-    - CryptoSwift
-    - DropDown
+    - AppLovinSDK
+    - Appodeal
+    - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
-    - MBProgressHUD
     - Protobuf
-    - SnapKit
     - StackModules
-    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
-  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
-  Appodeal: 462c385787965f95428fe876d9a38e440923dcde
-  CryptoSwift: e2e7776512f250e66205955da748e7a4e4abffe0
-  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  AppLovinSDK: 91a47db42b6c0e2b83224006aa46b0b88c62c16f
+  Appodeal: 4fe21512a80d906dbd3aceb13888c8a04393b718
+  AppodealAppLovinAdapter: a275ed41d20aa234bd1833f1a9820afa0341da41
+  AppodealAppLovinMAXAdapter: 40f7ddd2a91839ecc707f2ca998c3ed64b515cbd
+  Google-Mobile-Ads-SDK: dd0ded6717d122c6a32c69dc4afcace7d276e4e4
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Protobuf: e2de96d939c642ce8da186343ff8929b35223212
-  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   StackConsentManager: 6b884ea33ff3858eafd1b949851b4f56c84ca1ad
   StackModules: af0e76eb5e6ef5d5a9f5963efc899359157a0a98
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: c0265f8cfad6fea2cec6e8cbe92b99e646bf58cd
+PODFILE CHECKSUM: 5b2ac39f9de05bdf1edc52d9fb7da6b43acf4d2d
 
 COCOAPODS: 1.16.2

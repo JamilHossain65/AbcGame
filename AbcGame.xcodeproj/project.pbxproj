@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		919796B7E2AE959B79FE9636 /* Pods_AbcGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E14C7671B5DEA7AE9654D4 /* Pods_AbcGameTests.framework */; };
-		B180235824589B3DABFC3AE2 /* Pods_AbcGame_AbcGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BFF3137A02D42FAFA237F1 /* Pods_AbcGame_AbcGameUITests.framework */; };
-		CA6F88441D8CB1295FF1795A /* Pods_AbcGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFD614A1CDDD7CA8CBBCCE6 /* Pods_AbcGame.framework */; };
+		0A7983A6E18A30335216230F /* Pods_AbcGame_AbcGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB13C26DD4660483B643C6B5 /* Pods_AbcGame_AbcGameUITests.framework */; };
+		378D149D8D8989193F081927 /* Pods_AbcGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73005823A572FBC2DA2B05F /* Pods_AbcGameTests.framework */; };
+		4BAEF706BAEAE547D0C1480F /* Pods_AbcGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69261636F32797B10700F368 /* Pods_AbcGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,18 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01EAFADB1143F6A9A016ED17 /* Pods-AbcGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame.release.xcconfig"; path = "Target Support Files/Pods-AbcGame/Pods-AbcGame.release.xcconfig"; sourceTree = "<group>"; };
-		0BFD614A1CDDD7CA8CBBCCE6 /* Pods_AbcGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		372FA2140425797F17845D7F /* Pods-AbcGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGameTests.debug.xcconfig"; path = "Target Support Files/Pods-AbcGameTests/Pods-AbcGameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		43BFF3137A02D42FAFA237F1 /* Pods_AbcGame_AbcGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGame_AbcGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8054F612152AC0A0C7AE4486 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame-AbcGameUITests.release.xcconfig"; path = "Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AF7A6F89FEA7E8B0863E9B9 /* Pods-AbcGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGameTests.debug.xcconfig"; path = "Target Support Files/Pods-AbcGameTests/Pods-AbcGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69261636F32797B10700F368 /* Pods_AbcGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEB03A9302F6AE200FECF12 /* AbcGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbcGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEB03BF302F6AE900FECF12 /* AbcGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbcGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEB03C9302F6AE900FECF12 /* AbcGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbcGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98E14C7671B5DEA7AE9654D4 /* Pods_AbcGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2396060A5A0F59E2DD8DFDB /* Pods-AbcGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGameTests.release.xcconfig"; path = "Target Support Files/Pods-AbcGameTests/Pods-AbcGameTests.release.xcconfig"; sourceTree = "<group>"; };
-		CBB207187A4D5117E1743B2A /* Pods-AbcGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame.debug.xcconfig"; path = "Target Support Files/Pods-AbcGame/Pods-AbcGame.debug.xcconfig"; sourceTree = "<group>"; };
-		CBCE48F1D1D24D0625DF6510 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame-AbcGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C420A3941B9FDEAC3ADB9DB /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame-AbcGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C9086724E9645D15FFB27E7 /* Pods-AbcGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGameTests.release.xcconfig"; path = "Target Support Files/Pods-AbcGameTests/Pods-AbcGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB40FA75C35E85BE7D4EDEA1 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame-AbcGameUITests.release.xcconfig"; path = "Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4B6988BC3B3B6B58CC77982 /* Pods-AbcGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame.debug.xcconfig"; path = "Target Support Files/Pods-AbcGame/Pods-AbcGame.debug.xcconfig"; sourceTree = "<group>"; };
+		E73005823A572FBC2DA2B05F /* Pods_AbcGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB13C26DD4660483B643C6B5 /* Pods_AbcGame_AbcGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcGame_AbcGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC303B34109266A3CC4F1A5B /* Pods-AbcGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcGame.release.xcconfig"; path = "Target Support Files/Pods-AbcGame/Pods-AbcGame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,11 +65,15 @@
 		};
 		8DEB03C2302F6AE900FECF12 /* AbcGameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AbcGameTests;
 			sourceTree = "<group>";
 		};
 		8DEB03CC302F6AE900FECF12 /* AbcGameUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AbcGameUITests;
 			sourceTree = "<group>";
 		};
@@ -80,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA6F88441D8CB1295FF1795A /* Pods_AbcGame.framework in Frameworks */,
+				4BAEF706BAEAE547D0C1480F /* Pods_AbcGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919796B7E2AE959B79FE9636 /* Pods_AbcGameTests.framework in Frameworks */,
+				378D149D8D8989193F081927 /* Pods_AbcGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,22 +100,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B180235824589B3DABFC3AE2 /* Pods_AbcGame_AbcGameUITests.framework in Frameworks */,
+				0A7983A6E18A30335216230F /* Pods_AbcGame_AbcGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC9374E7B8662C574E41ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69261636F32797B10700F368 /* Pods_AbcGame.framework */,
+				EB13C26DD4660483B643C6B5 /* Pods_AbcGame_AbcGameUITests.framework */,
+				E73005823A572FBC2DA2B05F /* Pods_AbcGameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7229C7194E2275119840109E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB207187A4D5117E1743B2A /* Pods-AbcGame.debug.xcconfig */,
-				01EAFADB1143F6A9A016ED17 /* Pods-AbcGame.release.xcconfig */,
-				CBCE48F1D1D24D0625DF6510 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */,
-				8054F612152AC0A0C7AE4486 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */,
-				372FA2140425797F17845D7F /* Pods-AbcGameTests.debug.xcconfig */,
-				A2396060A5A0F59E2DD8DFDB /* Pods-AbcGameTests.release.xcconfig */,
+				E4B6988BC3B3B6B58CC77982 /* Pods-AbcGame.debug.xcconfig */,
+				FC303B34109266A3CC4F1A5B /* Pods-AbcGame.release.xcconfig */,
+				9C420A3941B9FDEAC3ADB9DB /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */,
+				DB40FA75C35E85BE7D4EDEA1 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */,
+				2AF7A6F89FEA7E8B0863E9B9 /* Pods-AbcGameTests.debug.xcconfig */,
+				9C9086724E9645D15FFB27E7 /* Pods-AbcGameTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -124,7 +138,7 @@
 				8DEB03CC302F6AE900FECF12 /* AbcGameUITests */,
 				8DEB03AA302F6AE200FECF12 /* Products */,
 				7229C7194E2275119840109E /* Pods */,
-				B953CE974A46131119D4FF0E /* Frameworks */,
+				4DC9374E7B8662C574E41ECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,16 +152,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B953CE974A46131119D4FF0E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0BFD614A1CDDD7CA8CBBCCE6 /* Pods_AbcGame.framework */,
-				43BFF3137A02D42FAFA237F1 /* Pods_AbcGame_AbcGameUITests.framework */,
-				98E14C7671B5DEA7AE9654D4 /* Pods_AbcGameTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,12 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DEB03D2302F6AE900FECF12 /* Build configuration list for PBXNativeTarget "AbcGame" */;
 			buildPhases = (
-				0BAE0B76B6977C32AC85BAB9 /* [CP] Check Pods Manifest.lock */,
+				0B1F20153A3763A5A989AC71 /* [CP] Check Pods Manifest.lock */,
 				8DEB03A5302F6AE200FECF12 /* Sources */,
 				8DEB03A6302F6AE200FECF12 /* Frameworks */,
 				8DEB03A7302F6AE200FECF12 /* Resources */,
-				634FCB2F6CDBAFAFBD0D880E /* [CP] Embed Pods Frameworks */,
-				8C5DCF1D77175E18D1956FAF /* [CP] Copy Pods Resources */,
+				7A76869D5BD4E2CDC459878A /* [CP] Embed Pods Frameworks */,
+				749745C0500441EF3D1760D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,7 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DEB03D7302F6AEA00FECF12 /* Build configuration list for PBXNativeTarget "AbcGameTests" */;
 			buildPhases = (
-				C47D7EE4D2E28F87028188BB /* [CP] Check Pods Manifest.lock */,
+				7B8F1E609971E05812B978CD /* [CP] Check Pods Manifest.lock */,
 				8DEB03BB302F6AE900FECF12 /* Sources */,
 				8DEB03BC302F6AE900FECF12 /* Frameworks */,
 				8DEB03BD302F6AE900FECF12 /* Resources */,
@@ -200,12 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DEB03DA302F6AEA00FECF12 /* Build configuration list for PBXNativeTarget "AbcGameUITests" */;
 			buildPhases = (
-				22AF7F576FEE9000F0FA0ADD /* [CP] Check Pods Manifest.lock */,
+				0096328C49E40950644C8DB4 /* [CP] Check Pods Manifest.lock */,
 				8DEB03C5302F6AE900FECF12 /* Sources */,
 				8DEB03C6302F6AE900FECF12 /* Frameworks */,
 				8DEB03C7302F6AE900FECF12 /* Resources */,
-				6AE4B7F4110AAA4A7E15EFE3 /* [CP] Embed Pods Frameworks */,
-				2DFB638C704884D88F03F29E /* [CP] Copy Pods Resources */,
+				6B3FD3F1DC2A676ABF0E05D8 /* [CP] Embed Pods Frameworks */,
+				CA699A2D8FFA337CA1418F2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,29 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BAE0B76B6977C32AC85BAB9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AbcGame-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		22AF7F576FEE9000F0FA0ADD /* [CP] Check Pods Manifest.lock */ = {
+		0096328C49E40950644C8DB4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,49 +315,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2DFB638C704884D88F03F29E /* [CP] Copy Pods Resources */ = {
+		0B1F20153A3763A5A989AC71 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbcGame-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		634FCB2F6CDBAFAFBD0D880E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6AE4B7F4110AAA4A7E15EFE3 /* [CP] Embed Pods Frameworks */ = {
+		6B3FD3F1DC2A676ABF0E05D8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,20 +345,16 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C5DCF1D77175E18D1956FAF /* [CP] Copy Pods Resources */ = {
+		749745C0500441EF3D1760D7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,20 +362,33 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C47D7EE4D2E28F87028188BB /* [CP] Check Pods Manifest.lock */ = {
+		7A76869D5BD4E2CDC459878A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame/Pods-AbcGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8F1E609971E05812B978CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,6 +408,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA699A2D8FFA337CA1418F2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbcGame-AbcGameUITests/Pods-AbcGame-AbcGameUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -481,7 +469,7 @@
 /* Begin XCBuildConfiguration section */
 		8DEB03D3302F6AE900FECF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB207187A4D5117E1743B2A /* Pods-AbcGame.debug.xcconfig */;
+			baseConfigurationReference = E4B6988BC3B3B6B58CC77982 /* Pods-AbcGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -518,7 +506,7 @@
 		};
 		8DEB03D4302F6AE900FECF12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01EAFADB1143F6A9A016ED17 /* Pods-AbcGame.release.xcconfig */;
+			baseConfigurationReference = FC303B34109266A3CC4F1A5B /* Pods-AbcGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -676,7 +664,7 @@
 		};
 		8DEB03D8302F6AEA00FECF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 372FA2140425797F17845D7F /* Pods-AbcGameTests.debug.xcconfig */;
+			baseConfigurationReference = 2AF7A6F89FEA7E8B0863E9B9 /* Pods-AbcGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -696,7 +684,7 @@
 		};
 		8DEB03D9302F6AEA00FECF12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2396060A5A0F59E2DD8DFDB /* Pods-AbcGameTests.release.xcconfig */;
+			baseConfigurationReference = 9C9086724E9645D15FFB27E7 /* Pods-AbcGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -716,7 +704,7 @@
 		};
 		8DEB03DB302F6AEA00FECF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBCE48F1D1D24D0625DF6510 /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */;
+			baseConfigurationReference = 9C420A3941B9FDEAC3ADB9DB /* Pods-AbcGame-AbcGameUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -735,7 +723,7 @@
 		};
 		8DEB03DC302F6AEA00FECF12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8054F612152AC0A0C7AE4486 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */;
+			baseConfigurationReference = DB40FA75C35E85BE7D4EDEA1 /* Pods-AbcGame-AbcGameUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
