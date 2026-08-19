@@ -38,7 +38,9 @@ class ViewController: UIViewController {
     }
     
     @objc func playAction(sender: UIButton) {
-        //Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
+        if isAppodealEnable{
+            Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
+        }
     }
     
     @objc func playAction2(sender: UIButton) {
