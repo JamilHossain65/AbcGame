@@ -7,11 +7,11 @@
 
 import UIKit
 import Appodeal
-import GoogleMobileAds
+//import GoogleMobileAds
 import UserMessagingPlatform
 
 class ViewController: UIViewController {
-    var interstitialAd: InterstitialAd?
+    //var interstitialAd: InterstitialAd?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,12 +19,11 @@ class ViewController: UIViewController {
         if isAppodealEnable{
             // set delegate
             Appodeal.setInterstitialDelegate(self)
-            Appodeal.setTestingEnabled(true)
         }
 
-        // Add this immediately after initializing the Mobile Ads SDK
-        let testDeviceIdentifiers = ["ca-app-pub-3940256099942544/4411468910"]
-        MobileAds.shared.requestConfiguration.testDeviceIdentifiers = testDeviceIdentifiers
+//        // Add this immediately after initializing the Mobile Ads SDK
+//        let testDeviceIdentifiers = ["ca-app-pub-3940256099942544/4411468910"]
+//        MobileAds.shared.requestConfiguration.testDeviceIdentifiers = testDeviceIdentifiers
         
         let demoButton = UIButton(type: .detailDisclosure)
         demoButton.frame = CGRectMake(100, 230, 60, 40)
@@ -39,7 +38,15 @@ class ViewController: UIViewController {
     
     @objc func playAction(sender: UIButton) {
         if isAppodealEnable{
-            Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
+            //Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
+            
+//            let placement = "placement",
+//            Appodeal.isInitialized(for: .interstitial)
+//            Appodeal.canShow(.interstitial, forPlacement: placement)
+            
+            //Appodeal.isInitialized(for: .interstitial)
+            
+            Appodeal.showAd(.interstitial, rootViewController: self)
         }
     }
     
@@ -71,9 +78,7 @@ extension ViewController: AppodealInterstitialDelegate {
     }
 }
 
-
-
-
+/*
 extension ViewController: FullScreenContentDelegate {
     func showAdmobInterstitial(_ viewController:UIViewController){
         //ca-app-pub-8007562169424853/2425812770
@@ -90,5 +95,5 @@ extension ViewController: FullScreenContentDelegate {
         }
     }
 }
-
+*/
 
