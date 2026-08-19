@@ -12,7 +12,8 @@ import Appodeal
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private struct AppodealConstants {
-        static let key: String = "dee74c5129f53fc629a44a690a02296694e3eef99f2d3a5f"
+        //dee74c5129f53fc629a44a690a02296694e3eef99f2d3a5f
+        static let key: String = "57f00653f58feba4e79ff23f293413b0ba075d12f28799d6"
         static let adTypes: AppodealAdType = [.interstitial, .rewardedVideo, .banner, .nativeAd]
         static let logLevel: APDLogLevel = .debug
         static let testMode: Bool = true
