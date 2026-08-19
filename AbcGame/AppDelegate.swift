@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if isAppodealEnable{
             Appodeal.setAutocache(false, types: .interstitial)
-            Appodeal.setLogLevel(.verbose)
+            Appodeal.setLogLevel(.verbose)//
             Appodeal.initialize(withApiKey: "57f00653f58feba4e79ff23f293413b0ba075d12f28799d6",types: [.interstitial, .rewardedVideo])
         }
         
