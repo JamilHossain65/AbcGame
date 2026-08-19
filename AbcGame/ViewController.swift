@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         
         if isAppodealEnable{
             // set delegate
-            Appodeal.setTestingEnabled(true)
             Appodeal.setInterstitialDelegate(self)
+            Appodeal.setTestingEnabled(true)
         }
 
         // Add this immediately after initializing the Mobile Ads SDK
