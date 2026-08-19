@@ -1,16 +1,10 @@
 PODS:
-  - AppLovinSDK (13.6.2)
+  - AppLovinSDK (13.6.4)
   - Appodeal (4.3.0):
     - Protobuf (= 3.29.3)
     - StackConsentManager (= 4.1.0)
     - StackModules (= 3.5.2)
-  - AppodealAppLovinAdapter (13.6.2.0):
-    - AppLovinSDK (= 13.6.2)
-    - Appodeal (< 5.0.0, >= 4.0.0)
-  - AppodealAppLovinMAXAdapter (13.6.2.0):
-    - AppLovinSDK (= 13.6.2)
-    - Appodeal (< 5.0.0, >= 4.0.0)
-  - Google-Mobile-Ads-SDK (13.7.0):
+  - Google-Mobile-Ads-SDK (13.8.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.1.0)
   - Protobuf (3.29.3)
@@ -30,35 +24,30 @@ PODS:
     - StackModules/Rendering-Static
 
 DEPENDENCIES:
+  - AppLovinSDK
   - Appodeal (= 4.3.0)
-  - AppodealAppLovinAdapter (= 13.6.2.0)
-  - AppodealAppLovinMAXAdapter (= 13.6.2.0)
   - Google-Mobile-Ads-SDK
 
 SPEC REPOS:
   https://github.com/appodeal/CocoaPods.git:
-    - AppodealAppLovinAdapter
-    - AppodealAppLovinMAXAdapter
+    - Appodeal
     - StackConsentManager
   trunk:
     - AppLovinSDK
-    - Appodeal
     - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
     - Protobuf
     - StackModules
 
 SPEC CHECKSUMS:
-  AppLovinSDK: 91a47db42b6c0e2b83224006aa46b0b88c62c16f
-  Appodeal: 4fe21512a80d906dbd3aceb13888c8a04393b718
-  AppodealAppLovinAdapter: a275ed41d20aa234bd1833f1a9820afa0341da41
-  AppodealAppLovinMAXAdapter: 40f7ddd2a91839ecc707f2ca998c3ed64b515cbd
-  Google-Mobile-Ads-SDK: dd0ded6717d122c6a32c69dc4afcace7d276e4e4
+  AppLovinSDK: 730be87bac90c5b0f7d507c3a2530213f7685370
+  Appodeal: 462c385787965f95428fe876d9a38e440923dcde
+  Google-Mobile-Ads-SDK: 9818000c50be41d5289dff425c7e3338cfbf323d
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
   Protobuf: e2de96d939c642ce8da186343ff8929b35223212
   StackConsentManager: 6b884ea33ff3858eafd1b949851b4f56c84ca1ad
   StackModules: af0e76eb5e6ef5d5a9f5963efc899359157a0a98
 
-PODFILE CHECKSUM: 5b2ac39f9de05bdf1edc52d9fb7da6b43acf4d2d
+PODFILE CHECKSUM: c895729f4453fad1e98ac0496b173e0494a31134
 
 COCOAPODS: 1.16.2

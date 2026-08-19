@@ -111,6 +111,7 @@ target 'AbcGame' do
   # Pods for AbcGame
   appodeal
   pod 'Google-Mobile-Ads-SDK'
+  #pod 'AppLovinSDK'
   
   target 'AbcGameTests' do
     inherit! :search_paths

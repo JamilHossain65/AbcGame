@@ -16,8 +16,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // set delegate
-        Appodeal.setInterstitialDelegate(self)
+        if isAppodealEnable{
+            // set delegate
+            Appodeal.setTestingEnabled(true)
+            Appodeal.setInterstitialDelegate(self)
+        }
 
         // Add this immediately after initializing the Mobile Ads SDK
         let testDeviceIdentifiers = ["ca-app-pub-3940256099942544/4411468910"]
@@ -35,7 +38,7 @@ class ViewController: UIViewController {
     }
     
     @objc func playAction(sender: UIButton) {
-        Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
+        //Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
     }
     
     @objc func playAction2(sender: UIButton) {
@@ -64,9 +67,8 @@ extension ViewController: AppodealInterstitialDelegate {
         }))
         self.present(alert, animated: true, completion: nil)
     }
-    
-    
 }
+
 
 
 
