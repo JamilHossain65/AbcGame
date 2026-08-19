@@ -82,25 +82,25 @@ def appodeal
 #   pod 'BidonAdapterYandex', '7.18.4.0'
 #   pod 'BidonAdapterZmaticoo', '2.2.0.0'
 #   # Appodeal
-#   pod 'AppodealAmazonAdapter', '5.5.0.0'
+   pod 'AppodealAmazonAdapter', '5.5.0.0'
    pod 'AppodealAppLovinAdapter', '13.6.2.0'
    pod 'AppodealAppLovinMAXAdapter', '13.6.2.0'
-#   pod 'AppodealBidMachineAdapter', '3.7.1.0'
-#   pod 'AppodealBidonAdapter', '0.15.0.0'
-#   pod 'AppodealBigoAdsAdapter', '5.2.1.0'
-#   pod 'AppodealDTExchangeAdapter', '8.4.7.0'
-#   pod 'AppodealGoogleAdMobAdapter', '13.5.0.0'
-#   pod 'AppodealIABAdapter', '3.5.2.0'
-#   pod 'AppodealInMobiAdapter', '11.3.0.0'
-#   pod 'AppodealIronSourceAdapter', '9.4.0.0.0'
-#   pod 'AppodealLevelPlayAdapter', '9.4.0.0.0'
-#   pod 'AppodealMetaAudienceNetworkAdapter', '6.21.1.0'
-#   pod 'AppodealMintegralAdapter', '8.1.3.0'
-#   pod 'AppodealMyTargetAdapter', '5.43.0.0'
-#   pod 'AppodealSentryAdapter', '8.57.2.1'
-#   pod 'AppodealUnityAdapter', '4.17.0.0'
-#   pod 'AppodealVungleAdapter', '7.7.3.0'
-#   pod 'AppodealYandexAdapter', '7.18.4.1'
+   pod 'AppodealBidMachineAdapter', '3.7.1.0'
+   pod 'AppodealBidonAdapter', '0.15.0.0'
+   pod 'AppodealBigoAdsAdapter', '5.2.1.0'
+   pod 'AppodealDTExchangeAdapter', '8.4.7.0'
+   pod 'AppodealGoogleAdMobAdapter', '13.5.0.0'
+   pod 'AppodealIABAdapter', '3.5.2.0'
+   pod 'AppodealInMobiAdapter', '11.3.0.0'
+   pod 'AppodealIronSourceAdapter', '9.4.0.0.0'
+   pod 'AppodealLevelPlayAdapter', '9.4.0.0.0'
+   pod 'AppodealMetaAudienceNetworkAdapter', '6.21.1.0'
+   pod 'AppodealMintegralAdapter', '8.1.3.0'
+   pod 'AppodealMyTargetAdapter', '5.43.0.0'
+   pod 'AppodealSentryAdapter', '8.57.2.1'
+   pod 'AppodealUnityAdapter', '4.17.0.0'
+   pod 'AppodealVungleAdapter', '7.7.3.0'
+   pod 'AppodealYandexAdapter', '7.18.4.1'
 end
 
 
@@ -110,7 +110,7 @@ target 'AbcGame' do
 
   # Pods for AbcGame
   appodeal
-  pod 'Google-Mobile-Ads-SDK'
+  #pod 'Google-Mobile-Ads-SDK'
   #pod 'AppLovinSDK'
   
   target 'AbcGameTests' do

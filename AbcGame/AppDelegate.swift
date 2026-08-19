@@ -11,12 +11,10 @@ import Appodeal
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         if isAppodealEnable{
-            Appodeal.setAutocache(false, types: [.interstitial, .rewardedVideo])
+            Appodeal.setAutocache(true, types: [.interstitial, .rewardedVideo])
             Appodeal.setLogLevel(.verbose)//
             Appodeal.initialize(withApiKey: "57f00653f58feba4e79ff23f293413b0ba075d12f28799d6",types: [.interstitial, .rewardedVideo])
         }
