@@ -89,7 +89,7 @@ def appodeal
    pod 'AppodealBidonAdapter', '0.15.0.0'
    pod 'AppodealBigoAdsAdapter', '5.2.1.0'
    pod 'AppodealDTExchangeAdapter', '8.4.7.0'
-   #pod 'AppodealGoogleAdMobAdapter', '13.5.0.0'
+   pod 'AppodealGoogleAdMobAdapter', '13.5.0.0'
    pod 'AppodealIABAdapter', '3.5.2.0'
    pod 'AppodealInMobiAdapter', '11.3.0.0'
    pod 'AppodealIronSourceAdapter', '9.4.0.0.0'

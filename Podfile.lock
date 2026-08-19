@@ -22,6 +22,10 @@ PODS:
   - AppodealDTExchangeAdapter (8.4.7.0):
     - Appodeal (< 5.0.0, >= 4.0.0)
     - Fyber_Marketplace_SDK (= 8.4.7)
+  - AppodealGoogleAdMobAdapter (13.5.0.0):
+    - Appodeal (< 5.0.0, >= 4.0.0)
+    - Bidon (= 0.15.0)
+    - Google-Mobile-Ads-SDK (= 13.5.0)
   - AppodealIABAdapter (3.5.2.0):
     - Appodeal (< 5.0.0, >= 4.0.0)
     - StackModules (= 3.5.2)
@@ -50,6 +54,8 @@ PODS:
   - Bidon (0.15.0)
   - BigoADS (5.2.1)
   - Fyber_Marketplace_SDK (8.4.7)
+  - Google-Mobile-Ads-SDK (13.5.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.1.0)
   - InMobiSDK (11.3.0)
   - IronSourceAdQualitySDK (9.4.0)
@@ -125,6 +131,7 @@ DEPENDENCIES:
   - AppodealBidonAdapter (= 0.15.0.0)
   - AppodealBigoAdsAdapter (= 5.2.1.0)
   - AppodealDTExchangeAdapter (= 8.4.7.0)
+  - AppodealGoogleAdMobAdapter (= 13.5.0.0)
   - AppodealIABAdapter (= 3.5.2.0)
   - AppodealInMobiAdapter (= 11.3.0.0)
   - AppodealIronSourceAdapter (= 9.4.0.0.0)
@@ -142,6 +149,7 @@ SPEC REPOS:
     - AppodealBidonAdapter
     - AppodealBigoAdsAdapter
     - AppodealDTExchangeAdapter
+    - AppodealGoogleAdMobAdapter
     - AppodealIABAdapter
     - AppodealInMobiAdapter
     - AppodealIronSourceAdapter
@@ -157,6 +165,7 @@ SPEC REPOS:
     - BidMachine
     - BigoADS
     - Fyber_Marketplace_SDK
+    - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
     - InMobiSDK
     - IronSourceAdQualitySDK
@@ -178,6 +187,7 @@ SPEC CHECKSUMS:
   AppodealBidonAdapter: b4b91d50676f68269814a35900ebafdfe249a71c
   AppodealBigoAdsAdapter: 18ed7ad115dea36253c664dd6d2af8532f46941c
   AppodealDTExchangeAdapter: 90c9f7dc8e336632e72e364fba0a1fd7ed6f2649
+  AppodealGoogleAdMobAdapter: 7730baee55a70851e614abe80febfecd950d8285
   AppodealIABAdapter: 121f2fe634aa88ff4545326cf0028e6ffebb5a8b
   AppodealInMobiAdapter: 38ead62a850319d0e1c8ee0aff8fa90fa64372d1
   AppodealIronSourceAdapter: fcda46a4abd56010683398a2cdcd471c2f79ffbc
@@ -189,6 +199,7 @@ SPEC CHECKSUMS:
   Bidon: 78b9e311d1961a5bedea4bbe58fc3c0d55da7159
   BigoADS: b5c96a23ba4262fcafb71801f77785fc50efecf8
   Fyber_Marketplace_SDK: 1a880b530921ddf07a74982e163ab56eaf90e932
+  Google-Mobile-Ads-SDK: 2171620c6497804b57dc88b95644cc82e7dfb5b0
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
   InMobiSDK: a25c208dcc6fc6d9b228f34a4643712f37923208
   IronSourceAdQualitySDK: 7414cf810bdfbc67c3d58536469a923a3a452ac5
@@ -202,6 +213,6 @@ SPEC CHECKSUMS:
   StackConsentManager: 6b884ea33ff3858eafd1b949851b4f56c84ca1ad
   StackModules: af0e76eb5e6ef5d5a9f5963efc899359157a0a98
 
-PODFILE CHECKSUM: 845adda0b57a08096cd764b8483582cccc568742
+PODFILE CHECKSUM: 9f6f96e5cb5cfcbcd36a2dfad87d526b076b0f39
 
 COCOAPODS: 1.16.2
