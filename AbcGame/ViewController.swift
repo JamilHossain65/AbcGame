@@ -16,8 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if isAppodealEnable{
-            // set delegate
+        if isAppodealEnable {
             Appodeal.setInterstitialDelegate(self)
         }
 
@@ -38,15 +37,7 @@ class ViewController: UIViewController {
     
     @objc func playAction(sender: UIButton) {
         if isAppodealEnable{
-            //Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: self)
-            
-//            let placement = "placement",
-//            Appodeal.isInitialized(for: .interstitial)
-//            Appodeal.canShow(.interstitial, forPlacement: placement)
-            
-            //Appodeal.isInitialized(for: .interstitial)
-            
-            Appodeal.showAd(.interstitial, rootViewController: self)
+            Appodeal.showAd([.interstitial,.rewardedVideo], rootViewController: self)
         }
     }
     
@@ -57,25 +48,8 @@ class ViewController: UIViewController {
 
 
 extension ViewController: AppodealInterstitialDelegate {
-
-    // Method called if interstitial mediation failed
-    func interstitialDidFailToLoadAd() {
-        let alert = UIAlertController(title: "Error", message: "Fail to load.. ", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
-            
-        }))
-        self.present(alert, animated: true, completion: nil)
-    }
-    
-    // Method called if interstitial mediation was success, but ready ad network can't show ad or
-    // ad presentation was to frequently according your placement settings
-    func interstitialDidFailToPresent() {
-        let alert = UIAlertController(title: "Error", message: "Fail to show.. ", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
-            
-        }))
-        self.present(alert, animated: true, completion: nil)
-    }
+    func interstitialDidFailToLoadAd() {}
+    func interstitialDidFailToPresent() {}
 }
 
 /*
